@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.scss'
 import React from 'react';
 import Header from '../components/Header';
 import Main from '../components/Main';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div id={styles.home}>
