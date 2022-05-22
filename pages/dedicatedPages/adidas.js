@@ -55,7 +55,7 @@ const Adidas = () => {
                         function (data) {
 
                             return (
-                                <article>
+                                <article key={data.id}>
                                     <div>
                                         <div className={styles.logo}>
                                             <Image

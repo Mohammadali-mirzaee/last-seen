@@ -1,5 +1,5 @@
 import styles from '../styles/about.module.scss'
-const about = () => {
+const About = () => {
 
     return (
         <div id={styles.about}>
@@ -11,4 +11,4 @@ const about = () => {
 }
 
 
-export default about
+export default About

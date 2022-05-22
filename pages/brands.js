@@ -1,5 +1,5 @@
 import styles from '../styles/brands.module.scss'
-const brands = () => {
+const Brands = () => {
 
     return (
         <div id={styles.brands}>
@@ -11,4 +11,4 @@ const brands = () => {
 }
 
 
-export default brands
+export default Brands

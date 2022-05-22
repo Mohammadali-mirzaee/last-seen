@@ -68,7 +68,7 @@ const filterProducts = (products, search) => {
 
 
 
-const product = () => {
+const Product = () => {
 
     const [selectedProduct, setSelectedProduct] = useState(null)
     const [data, setData] = useState(null)
@@ -143,7 +143,7 @@ const product = () => {
                         function (data) {
 
                             return (
-                                <article>
+                                <article key={data.id}>
                                     <div onClick={() => selectProduct(data.sku)}>
                                         <div className={styles.logo}>
                                             <Image
@@ -190,4 +190,4 @@ const product = () => {
     );
 };
 
-export default product;
+export default Product;

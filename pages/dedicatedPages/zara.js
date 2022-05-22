@@ -64,7 +64,7 @@ const Zara = () => {
                         function (data) {
 
                             return (
-                                <article>
+                                <article key={data.sku}>
                                     <div>
                                         <div className={styles.logo}>
                                             <Image
