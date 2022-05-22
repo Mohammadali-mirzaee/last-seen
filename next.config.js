@@ -3,4 +3,16 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: [
+      "assets.adidas.com",
+      "lp2.hm.com",
+      "static.zara.net",
+      "lp.arket.com"
+    ],
+
+  },
+  nextConfig
+}
+

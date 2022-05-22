@@ -1,0 +1,105 @@
+#Main{
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+    .leftText{
+        position: absolute;
+        top: 5rem;
+        left: 15rem;
+        font-size: 4rem;
+        z-index: 999;
+        color: #0a3e38;
+
+
+    }
+    .rightText{
+        position: absolute;
+        top: 10rem;
+        right: 15rem;
+        font-size: 4rem;
+        z-index: 999;
+        color: #0a3e38;
+    }
+
+    .left{
+        position: absolute;
+        width: 300px;
+        top: 15rem;
+        height: 450px;
+        
+        img{
+        }
+    }
+
+    .right{
+        position: absolute;
+        width: 300px;
+        top: 20rem;
+        height: 450px;
+        left: 100;
+        right: 0;
+        border-radius: 1rem;
+        >img{
+        }
+    }
+    .center{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+         
+
+        .centerImg{
+            padding-top:1rem ;
+            width: 550px;
+            height: 850px;
+            border-radius: 1rem;
+
+        
+/*             border: 1px solid;
+ */
+            img{
+                border-radius: 0.5rem;
+                         position: relative;
+
+            }
+        }
+    }
+
+    #mainBrands{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            padding-top: 5rem;
+            font-size: 2rem;
+
+        }
+        >div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h2{
+                display: flex;
+                flex-direction: column;
+                width: 10rem;
+                align-items: center;
+                font-size: 2.5rem;
+                margin: 5rem;
+                cursor: pointer;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+                span{
+                    width: 100%;
+                    padding: 1rem;
+                }
+            }
+        }
+
+    }
+}

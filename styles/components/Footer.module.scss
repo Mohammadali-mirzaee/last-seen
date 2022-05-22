@@ -1,0 +1,39 @@
+
+#Footer{
+    height: 15rem;
+    padding: 1rem;
+    width: 100%;
+    background: #000;
+    color: aliceblue;
+    .logoVy{
+        position: absolute;
+        left: 1rem;
+        padding-top: 1rem;
+    }
+    .container{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    ul{
+        display: flex;
+        padding-top: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: #fff;
+                padding: 1rem;
+
+            }
+        }
+    }
+    }
+    .social{
+        padding-top: 5rem;
+    }
+
+}
