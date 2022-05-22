@@ -17,7 +17,7 @@ const getlogo = (store) => {
 
 }
 
-const zara = () => {
+const Hm = () => {
 
 
     console.log()
@@ -95,4 +95,4 @@ const zara = () => {
     );
 };
 
-export default zara;
+export default Hm;

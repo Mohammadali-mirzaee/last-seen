@@ -28,7 +28,7 @@ const getlogo = (store) => {
 
 }
 
-const zara = () => {
+const Zara = () => {
 
 
     console.log()
@@ -106,4 +106,4 @@ const zara = () => {
     );
 };
 
-export default zara;
+export default Zara;

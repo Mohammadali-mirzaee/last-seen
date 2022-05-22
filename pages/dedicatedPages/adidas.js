@@ -19,7 +19,7 @@ const getlogo = (store) => {
 
 }
 
-const zara = () => {
+const Adidas = () => {
 
 
     console.log()
@@ -97,4 +97,4 @@ const zara = () => {
     );
 };
 
-export default zara;
+export default Adidas;
