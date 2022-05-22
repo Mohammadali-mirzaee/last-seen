@@ -18,7 +18,7 @@ const Header = () => {
                                 src='/logo/S.svg'
                                 height={80}
                                 width={100}
-
+                                alt="My Awesome Image"
                             ></Image>
                         </Link>
                     </li>

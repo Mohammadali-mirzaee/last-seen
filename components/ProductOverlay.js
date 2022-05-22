@@ -17,6 +17,7 @@ const ProductOverlay = ({ product }) => {
                     height={200}
                     objectFit="contain"
                     src={product.extraImage[0]}
+                    alt="My Awesome Image"
 
                 />
                 <Image
@@ -24,6 +25,7 @@ const ProductOverlay = ({ product }) => {
                     height={200}
                     objectFit="contain"
                     src={product.extraImage[1]}
+                    alt="My Awesome Image"
 
                 />
             </div>

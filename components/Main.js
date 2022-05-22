@@ -28,6 +28,7 @@ const Main = () => {
                     width={300}
                     objectFit="cover"
                     layout='responsive'
+                    alt="My Awesome Image"
 
                 ></Image>
             </div>
@@ -40,6 +41,7 @@ const Main = () => {
                     width={300}
                     objectFit="cover"
                     layout='responsive'
+                    alt="My Awesome Image"
 
                 ></Image>
 
@@ -56,6 +58,7 @@ const Main = () => {
                         width={550}
                         objectFit="cover"
                         layout='responsive'
+                        alt="My Awesome Image"
 
                     ></Image>
 
@@ -76,6 +79,7 @@ const Main = () => {
                                 height={100}
                                 width={100}
                                 layout='responsive'
+                                alt="My Awesome Image"
                             ></Image></span>
                         </Link>
 
@@ -90,6 +94,7 @@ const Main = () => {
                                 height={100}
                                 width={100}
                                 layout='responsive'
+                                alt="My Awesome Image"
                             ></Image></span>
                         </Link>
 
@@ -101,6 +106,7 @@ const Main = () => {
                                 height={100}
                                 width={100}
                                 layout='responsive'
+                                alt="My Awesome Image"
                             ></Image></span>
                         </Link>
 

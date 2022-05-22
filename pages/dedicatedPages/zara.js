@@ -70,6 +70,7 @@ const Zara = () => {
                                             <Image
                                                 width={30}
                                                 height={30}
+                                                alt="My Awesome Image"
                                                 src={getlogo(data.brand)?.src}
                                             />
                                         </div>
@@ -78,6 +79,7 @@ const Zara = () => {
                                             <Image
                                                 width={400}
                                                 height={400}
+                                                alt="My Awesome Image"
                                                 objectFit="contain"
                                                 /*  layout='fill' */
                                                 src={data.image}

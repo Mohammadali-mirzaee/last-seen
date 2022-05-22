@@ -150,6 +150,7 @@ const Product = () => {
                                                 width={50}
                                                 height={50}
                                                 src={getlogo(data?.brand)?.src}
+                                                alt="My Awesome Image"
                                             />
                                         </div>
 
@@ -160,6 +161,7 @@ const Product = () => {
                                                 objectFit="contain"
 /*                                                 layout='fill'
  */                                                src={data.image}
+                                                alt="My Awesome Image"
 
                                             />
                                         </div>

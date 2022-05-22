@@ -11,6 +11,7 @@ const Footer = () => {
                     src='/logo/S3.svg'
                     height={150}
                     width={150}
+                    alt="My Awesome Image"
                 />
             </div>
 
