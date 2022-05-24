@@ -1,42 +1,61 @@
 #header{
-    height: 3.5rem;
-    width: 100%;
+         width: calc(100% - 6rem);
+    /* margin: 0 1rem; */
+    padding: 0 3rem;
     background: #000;
-    color: #fff ;
-    font-size: 1.3rem;
-    border-radius: 5rem;
+    font-size: 1.2rem;
+    border-radius: 0 0 2.5rem 2.5rem;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    font-weight: lighter;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    right: 0;
 
-    .logo{
-        position: absolute;
-    }
-    .nav{
-        padding: 0;
-        margin-top: 0.5rem;
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        >div{
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    > a{
+        position: relative;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+
+        span{
             
-        .logo{
-            
-            position: absolute;
-            left: 0;
-            cursor: pointer;
-            img{
-                width: 5rem;
+            &:nth-child(1){animation: fadeIn 0.3s ease-in-out 0s both; font-size: 2.2rem; position: absolute; left: 0rem; top: -0.75rem;}
+            &:nth-child(2){animation: fadeIn 0.3s ease-in-out 0.3s both; font-size: 2.2rem; position: absolute; left: 1rem; bottom: -0.75rem;}
+            &:nth-child(3){animation: fadeIn 0.3s ease-in-out 0.6s both; position: relative; left: 3rem;}
+        }
+
+        @keyframes fadeIn {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
             }
         }
-        }
+    }
+
+    .nav{
+        list-style: none;
+        display: flex;
+
         li{
-            padding: 1.1rem;
+            margin-right: 2rem;
+
+            &:last-child{margin: 0;}
+
             a{
                 text-decoration: none;
-                color: #fff;
+                color: #999;
                 font-size: 1.3rem;
+                transition: .3s ease-in-out;
+            }
+            a:hover{
+                color:#fff
             }
         }
     }

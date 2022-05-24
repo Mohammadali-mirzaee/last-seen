@@ -2,15 +2,40 @@
     width: 100%;
     color: #000000;
     background:#EDEFF0;
+    position: absolute;
+
     .filterItems{
-        height: 10rem;
-        background: #000000;
-        color: #FAFAFA;
-        margin: 0.5rem;
-        border-radius: 0.2rem;
-/*         display: flex;
-        justify-content: center;
- */    }
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(0deg, #2755048c, transparent);
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 0 0 3rem 3rem;
+    max-width: 98%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    >h1{
+    color: black;
+    margin-right: 3rem;
+    font-weight: 600;
+    }
+        >input{
+            height: 3rem;
+            min-width: 6rem;
+            width: 20%;
+            padding: 1rem;
+            font-size: 1rem;
+            border-radius: 2rem;
+            border: none;
+        }
+        input:focus{
+            outline: none;
+        }
+    }
 
 .productOverlay{
   position: absolute;
@@ -33,6 +58,8 @@
     right: 0;
     bottom: 0;
     left: 0;
+    background: #00000070;
+
   }
 }
     .container{
@@ -75,7 +102,7 @@
                 }
 
                 button{
-                    background: #0a5a51;
+                    background: #2d6b39;
                     border: none;
                     height: 2rem;
                     width:50%;
@@ -90,8 +117,8 @@
                 }
                   button:hover {
                     outline: none;
-                    background: #0c7869;
-                    box-shadow: 0 5px 15px rgba(38, 169, 125, 0.4);
+                    background: #53de6f;
+                    box-shadow: 0 5px 15px #26a97d66;
       }
                 
             }

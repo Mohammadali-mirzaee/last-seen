@@ -1,20 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 #overlay{
 background: #fafafa;
-  width: 55%;
-  height: 60%;
+  width: 60%;
+  height: 70%;
   border-radius: 0.2rem;
   border: 1px solid #c4c4c4;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: space-around;
   text-align: left;
   position: fixed;
   color: #000;
-
-  .productView{
+  .imageGallery{
+    padding-top: 1rem;
+    width: 50%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: 1px solid #CCCCCC;
+
+    .swipeImg{
+    display: flex;
+    justify-content: center;
+    background:#fafafa;
+    border-radius: 0.1rem;
+    width: 100%;
+    padding-right: 1rem;
     
+
+    }
+  }
+  .productView{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    strong{
+      font-size: 0.8rem;
+      color: #000;
+    }
+    h1{
+      font-size: 1.6rem;
+      font-family: 'Rajdhani', sans-serif;
+    }
+    .articleNm{
+      font-size: 0.7rem;
+      padding-bottom: 1rem;
+      color: #4f4f4f;
+    }
+    .description{
+    border-top: 1px solid #CCCCCC;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    span{
+    font-size: 0.7rem;
+    }
+    }
+    .color{
+    border-top: 1px solid #CCCCCC;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    span{
+    font-size: 0.7rem;
+    }
+    }
+    .sizes{
+      border-top: 1px solid #CCCCCC ;
+      display: flex;
+      align-items: center;
+     >div{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      /* justify-content: space-around; */
+      }
+      span{
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.6rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.3rem;
+        background: #fff;
+        border: 1px solid #CCCCCC;
+      }
+    }
+    .priceView{
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+      align-items: center;
+      /* flex-direction: row; */
+      border-top: 1px dotted #CCCCCC;
+      h1{
+        font-size: 1.6rem;
+        color: #2d6b39;
+      }
+      h1:hover{
+        color: #4f4f4f;
+        transition: .3s ease-in-out;
+      }
+      button{
+        height: 3rem;
+        width: 45%;
+        border-radius: 3rem;
+        border: none;
+        background: #2d6b39;
+        a{
+              color: #fff;
+              text-decoration: none;
+              font-size: 1.3rem;
+        }
+        a:hover{
+          color: #4f4f4f;
+        }
+      }
+          /*  button:after{
+                    background: #8AFF8A;
+                    height: 155px; width: 50px;
+                    left: -75px; top: -50px;
+                    opacity: .2; z-index: 10;
+                    position: absolute;
+                    transition: all 550ms cubic-bezier(0.19,1,0,22,1);
+                    transform: rotate(35deg);
+                }
+                  button:hover:after {
+                    outline: none;
+                    left: 120%;
+                    transition: all 550ms cubic-bezier(0.19,1,0,22,1);
+
+                  } */
+      button:hover{
+        background: #8AFF8A;
+        transition: .3s ease-in-out;
+      }
+      button:focus{
+        outline: none;
+      }
+    }
+    .merInfo{
+      margin-top: 1rem;
+      height: 3rem;
+      border: 1px solid #CCCCCC;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 0.5rem;
+      div{
+        text-align: center;
+        width: 40%;
+      }
+    }
   }
 
 }

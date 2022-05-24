@@ -1,7 +1,9 @@
 import styles from '../../styles/product.module.scss'
 import Image from 'next/image';
 import { useState, useEffect } from "react";
-
+import Header from '../../components/Header';
+import ProductOverlay from '../../components/ProductOverlay';
+import React, { useCallback } from "react";
 /* import { fetchProducts } from '../services/Products';
  */
 
@@ -9,23 +11,35 @@ import { useState, useEffect } from "react";
 const getlogo = (store) => {
 
     switch (store) {
-        case 'H&M':
-            return {
-                src: '/h&m_- logo-100x67 1.svg'
-            }
-        case 'adidas':
-            return {
-                src: '/adidas-4-logo-svgrepo-com 1.svg'
 
-            }
         case 'ZARA':
             return {
-                src: '/zara-vector-logo-2022.svg'
+                src: '/logo/zara.svg'
 
             }
-
     }
 
+}
+
+const filterProducts = (products, search) => {
+
+    if (!products) {
+        return []
+    }
+
+    return products.filter(product => {
+        if (product.category?.toLowerCase().startsWith(search.toLowerCase())) {
+            return true
+        }
+        if (product.description?.toLowerCase().includes(search.toLowerCase())) {
+            return true
+        }
+        if (product.name?.toLowerCase().includes(search.toLowerCase())) {
+            return true
+        }
+
+        return false
+    })
 }
 
 const Zara = () => {
@@ -35,7 +49,21 @@ const Zara = () => {
 
 
     const [data, setData] = useState(null)
+    const [selectedProduct, setSelectedProduct] = useState(null)
 
+    const [serach, setSearch] = useState('')
+
+
+    const selectProduct = useCallback((sku) => {
+        console.log("sku", sku)
+        const prod = data.find(p => p.sku === sku)
+        console.log("prod", prod)
+        setSelectedProduct(prod)
+    }, [data])
+
+    const closeModal = useCallback(() => {
+        setSelectedProduct(null)
+    }, [])
 
     useEffect(() => {
         const myFunc = async () => {
@@ -46,51 +74,79 @@ const Zara = () => {
                 console.log(err, ' error')
                 throw new Error(error.message)
             }
-            const { /* adidas, hm, */ zara } = await response.json()
-            setData([/* ...adidas, ...hm, */ ...zara])
+            const { zara } = await response.json()
+            setData([...zara])
 
         }
         myFunc()
     }, [])
+
+    const onChange = (event) => {
+
+        setSearch(event.target.value)
+    }
+
+    const productsToShow = filterProducts(data, serach)
     return (
         <div id={styles.ProductPage}>
+
+            <Header />
+            {selectedProduct && (
+                <div className={styles.productOverlay}>
+
+                    <div onClick={closeModal}>
+
+                        <ProductOverlay product={selectedProduct} />
+
+                    </div>
+                </div>
+            )}
+
             <div className={styles.filterItems}>
-                Filter
+                <input type="text" onChange={onChange}
+                    onKeyPress={event => {
+                        if (event.key === 'Enter') {
+                            setSearch(event.target.value)
+                        }
+                    }}
+                    value={serach} placeholder="Search"></input>
             </div>
             <div className={styles.container}>
                 {
                     // use data State Variable For Get Data Use JavaScript Map Mathod
-                    data ? data.map(
+                    productsToShow && productsToShow.map(
                         function (data) {
 
                             return (
-                                <article key={data.sku}>
-                                    <div>
+                                <article key={data.id}>
+                                    <div >
                                         <div className={styles.logo}>
                                             <Image
-                                                width={30}
-                                                height={30}
+                                                width={50}
+                                                height={50}
+                                                src={getlogo(data?.brand)?.src}
                                                 alt="My Awesome Image"
-                                                src={getlogo(data.brand)?.src}
                                             />
                                         </div>
 
-                                        <div className={styles.imageBox}>
+                                        <div onClick={() => selectProduct(data.sku)} className={styles.imageBox}>
                                             <Image
                                                 width={400}
                                                 height={400}
-                                                alt="My Awesome Image"
                                                 objectFit="contain"
-                                                /*  layout='fill' */
-                                                src={data.image}
+/*                                                 layout='fill'
+ */                                                src={data.image}
+                                                alt="My Awesome Image"
+
                                             />
                                         </div>
 
                                         <p>
                                             {data.name}
                                         </p>
+                                        {/* <p>{data.category}</p> */}
                                         <div className={styles.price}>
-                                            <p>{data.price} kr</p>
+                                            <p>{data.price} SEK</p>
                                         </div>
                                         <button>
                                             <a href={data.productLink}>Go to store</a>
@@ -101,8 +157,11 @@ const Zara = () => {
 
                             )
                         }
-                    ) : ""
+                    )
+
                 }
+
+                {data !== null && !(productsToShow?.length > 0) && <h1> Inga produkter</h1>}
             </div>
         </div>
     );

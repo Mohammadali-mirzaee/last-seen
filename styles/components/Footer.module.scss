@@ -25,15 +25,20 @@
             list-style-type: none;
             a{
                 text-decoration: none;
-                color: #fff;
+                color: #999;
                 padding: 1rem;
+                transition: .3s ease-in-out;
 
+            }
+            a:hover{
+                color: #fff;
             }
         }
     }
     }
     .social{
         padding-top: 5rem;
+        color: #999;
     }
 
 }

@@ -1,32 +1,1112 @@
 [
   {
-    "productLink": "https://www.zara.com/se/sv/korsett-i-jacquard-med-smyckning-p01930035.html",
-    "name": "KORSETT I JACQUARD MED SMYCKNING",
-    "description": "Korsett. Hjärtformad urringning. Bara axlar. Strassapplikationer. Knäppning i sidan med dold dragkedja i sömmen.",
+    "productLink": "https://www.zara.com/se/sv/posiga-denimshorts-p08197004.html",
+    "name": "PÖSIGA DENIMSHORTS",
+    "description": "Shorts. Hög midja. Resårlinning. Veck. Påsydda fram- och bakfickor. Skärp i samma tyg. Knäppning fram med dragkedja och metallknapp.",
     "price": "299",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/1930/035/300/2/w/1920/1930035300_1_1_1.jpg?ts=1652868829277",
-    "sku": "186627448-300-2",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_1_1_1.jpg?ts=1652428643266",
+    "sku": "186748903-406-32",
+    "brand": "ZARA",
+    "size": [
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_2_1_1.jpg?ts=1652428630638",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_2_2_1.jpg?ts=1652428611934",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_2_3_1.jpg?ts=1652428613791",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_2_4_1.jpg?ts=1652428610684",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_2_5_1.jpg?ts=1652428611541",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_6_1_1.jpg?ts=1652945379929",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_6_2_1.jpg?ts=1652945378054",
+      "https://static.zara.net/photos///2022/I/0/1/p/8197/004/406/2/w/1920/8197004406_6_3_1.jpg?ts=1652945379450",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1003_0.jpg?ts=1626188317486"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/topp-crop-med-halbroderier-p00881023.html",
+    "name": "TOPP CROP MED HÅLBRODERIER",
+    "description": "Topp. V-ringning. Knytning på bröstet. Korta puffärmar med resår. Smockresår på ryggen. Kombinerade hålbroderier i samma färg. Knäppning i sidan med dold dragkedja i sömmen.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_1_1_1.jpg?ts=1652887125163",
+    "sku": "186702887-250-1",
+    "color": "VIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_2_1_1.jpg?ts=1652887127275",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_2_2_1.jpg?ts=1652887125541",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_2_3_1.jpg?ts=1652887125171",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_6_1_1.jpg?ts=1652890622596",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_6_2_1.jpg?ts=1652890625618",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/023/250/2/w/1920/0881023250_6_3_1.jpg?ts=1652890625650",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/topp-crop-med-halbroderier-p00881004.html",
+    "name": "TOPP CROP MED HÅLBRODERIER",
+    "description": "Topp. V-ringning. Knutdetalj. Korta puffärmar med resår. Smockresår på ryggen. Kombinerade hålbroderier i samma färg.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_1_1_1.jpg?ts=1652887128582",
+    "sku": "177677561-250-1",
+    "color": "VIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_2_1_1.jpg?ts=1652887128179",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_2_2_1.jpg?ts=1652887128500",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_2_3_1.jpg?ts=1652887124837",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_6_1_1.jpg?ts=1652890624601",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_6_2_1.jpg?ts=1652890622739",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/004/250/2/w/1920/0881004250_6_3_1.jpg?ts=1652890626122"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/blommonstrad-topp-med-linne-p00881019.html",
+    "name": "BLOMMÖNSTRAD TOPP MED LINNE",
+    "description": "Topp i linneblandat tyg. Fyrkantig urringning. Knytning på bröstet. Armbågslånga ärmar. Ärmslut med resår. Knäppning i ryggen med justerbara knytningar.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_1_1_1.jpg?ts=1652887124714",
+    "sku": "177666953-250-1",
+    "color": "VIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_2_1_1.jpg?ts=1652887124714",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_2_2_1.jpg?ts=1652887126192",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_2_3_1.jpg?ts=1652887128447",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_2_4_1.jpg?ts=1652887128608",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_6_1_1.jpg?ts=1652945376471",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_6_2_1.jpg?ts=1652945376146",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_6_3_1.jpg?ts=1652945377417",
+      "https://static.zara.net/photos///2022/I/0/1/p/0881/019/250/2/w/1920/0881019250_6_4_1.jpg?ts=1652945376185"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/klanning-med-infalld-spets-p07200302.html",
+    "name": "KLÄNNING MED INFÄLLD SPETS",
+    "description": "Klänning. V-ringning. Korta puffärmar. Detalj med infälld spets i samma färg.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_1_1_1.jpg?ts=1652887125945",
+    "sku": "186749397-800-1",
+    "color": "SVART",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_2_1_1.jpg?ts=1652887128890",
+      "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_2_2_1.jpg?ts=1652887128438",
+      "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_2_3_1.jpg?ts=1652887128700",
+      "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_6_1_1.jpg?ts=1652890626323",
+      "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_6_2_1.jpg?ts=1652890625896",
+      "https://static.zara.net/photos///2022/I/0/1/p/7200/302/800/2/w/1920/7200302800_6_3_1.jpg?ts=1652890624444",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/kort-klanning-med-vav-p00881322.html",
+    "name": "KORT KLÄNNING MED VÄV",
+    "description": "Kort klänning. Rak urringning. Tunna och justerbara axelband. Smockresår på bröstet. Kombinerat foder i samma färg.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/14/w/1920/0881322250_1_1_1.jpg?ts=1653319188371",
+    "sku": "187511372-250-1",
+    "color": "VIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/14/w/1920/0881322250_2_1_1.jpg?ts=1653319186781",
+      "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/14/w/1920/0881322250_2_2_1.jpg?ts=1653319187363",
+      "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/14/w/1920/0881322250_2_3_1.jpg?ts=1653319188692",
+      "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/2/w/1920/0881322250_6_1_1.jpg?ts=1648725525255",
+      "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/2/w/1920/0881322250_6_2_1.jpg?ts=1648725517192",
+      "https://static.zara.net/photos///2022/V/0/1/p/0881/322/250/2/w/1920/0881322250_6_3_1.jpg?ts=1648725518359",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/klanning-med-halbroderier-p07521305.html",
+    "name": "KLÄNNING MED HÅLBRODERIER",
+    "description": "Midiklänning. Rak urringning. Axelband. Smockresår på bröstet. Hålbroderier i nederkanten.",
+    "price": "499",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/12/w/1920/7521305800_1_1_1.jpg?ts=1653319174035",
+    "sku": "186749687-800-1",
+    "color": "SVART",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/12/w/1920/7521305800_2_1_1.jpg?ts=1653319172791",
+      "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/12/w/1920/7521305800_2_2_1.jpg?ts=1653319174237",
+      "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/12/w/1920/7521305800_2_4_1.jpg?ts=1653319176749",
+      "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/2/w/1920/7521305800_6_1_1.jpg?ts=1652945376100",
+      "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/2/w/1920/7521305800_6_2_1.jpg?ts=1652945376228",
+      "https://static.zara.net/photos///2022/I/0/1/p/7521/305/800/2/w/1920/7521305800_6_3_1.jpg?ts=1652945376439"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/klanning-med-halbroderier-p05107303.html",
+    "name": "KLÄNNING MED HÅLBRODERIER",
+    "description": "Klänning. V-ringning med omlott. Armbågslånga ärmar med resår. Omlottknäppning med knapp på insidan. Knytning i sidan.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_1_1_1.jpg?ts=1652870846313",
+    "sku": "186723011-306-1",
+    "color": "LJUSGUL",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_2_1_1.jpg?ts=1652870842522",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_2_2_1.jpg?ts=1652870844319",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_2_3_1.jpg?ts=1652870845351",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_2_4_1.jpg?ts=1652870846237",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_6_1_1.jpg?ts=1652875635362",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_6_2_1.jpg?ts=1652875635126",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/303/306/2/w/1920/5107303306_6_3_1.jpg?ts=1652875636442"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/klanning-med-halbroderier-p07200303.html",
+    "name": "KLÄNNING MED HÅLBRODERIER",
+    "description": "Kort klänning. V-ringning. Tunna och justerbara axelband med knytning i ryggen. Kombinerade hålbroderier i samma färg. Foder.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/12/w/1920/7200303250_1_1_1.jpg?ts=1653319207498",
+    "sku": "186749195-250-1",
+    "color": "VIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/12/w/1920/7200303250_2_1_1.jpg?ts=1653319205388",
+      "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/12/w/1920/7200303250_2_2_1.jpg?ts=1653319205859",
+      "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/12/w/1920/7200303250_2_3_1.jpg?ts=1653319207211",
+      "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/2/w/1920/7200303250_6_1_1.jpg?ts=1650615411019",
+      "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/2/w/1920/7200303250_6_2_1.jpg?ts=1650615390948",
+      "https://static.zara.net/photos///2022/V/0/1/p/7200/303/250/2/w/1920/7200303250_6_3_1.jpg?ts=1650615393643",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/jeans-straight-p04365059.html",
+    "name": "JEANS STRAIGHT",
+    "description": "MID RISE - STRAIGHT LEG - FULL LENGTH\n\nJeans med styvt tyg. Medelhög midja. Fem fickor. Nederkant med sidosprund. Knäppning fram med metallknappar.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_1_1_1.jpg?ts=1653046988459",
+    "sku": "177677577-406-32",
+    "color": "LJUSBLÅ",
+    "brand": "ZARA",
+    "size": [
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_2_1_1.jpg?ts=1653046991192",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_2_2_1.jpg?ts=1653046991003",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_2_3_1.jpg?ts=1653046990664",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_2_4_1.jpg?ts=1653046988687",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_2_5_1.jpg?ts=1653046991235",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_6_1_1.jpg?ts=1653036100253",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_6_2_1.jpg?ts=1653036101058",
+      "https://static.zara.net/photos///2022/I/0/1/p/4365/059/406/2/w/1920/4365059406_6_3_1.jpg?ts=1653036099857",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1052_0.jpg?ts=1626188306921"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/plana-sandaler-med-korsade-remmar-och-spanne-p13606010.html",
+    "name": "PLANA SANDALER MED KORSADE REMMAR OCH SPÄNNE",
+    "description": "Plana sandaler med korsade remmar. Knäppning med spänne på vristen. \n\nSulans höjd: 3 cm",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/2/w/1920/3606010032_1_1_1.jpg?ts=1652952503458",
+    "sku": "186722895-032-35",
+    "color": "KHAKIGRÖN",
+    "brand": "ZARA",
+    "size": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/22/w/1920/3606010032_15_1_1.jpg?ts=1652960375990",
+      "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/22/w/1920/3606010032_2_1_1.jpg?ts=1653041613213",
+      "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/2/w/1920/3606010032_6_1_1.jpg?ts=1652960243222",
+      "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/2/w/1920/3606010032_6_2_1.jpg?ts=1652960304164",
+      "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/2/w/1920/3606010032_6_3_1.jpg?ts=1652960242078",
+      "https://static.zara.net/photos///2022/I/1/1/p/3606/010/032/2/w/1920/3606010032_6_4_1.jpg?ts=1652960241775"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/plan-vadderad-sandal-p13607010.html",
+    "name": "PLAN VADDERAD SANDAL",
+    "description": "Plana sandaler. Bred och vadderad rem på framdelen. \n\nSulans höjd: 4,5 cm",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_1_1_1.jpg?ts=1652952504772",
+    "sku": "186748868-040-35",
+    "color": "SVART",
+    "brand": "ZARA",
+    "size": [
+      "35",
+      "36",
+      "37",
+      "39",
+      "40"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_2_1_1.jpg?ts=1652952503716",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/22/w/1920/3607010040_2_2_1.jpg?ts=1653041841089",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/22/w/1920/3607010040_2_3_1.jpg?ts=1653041843708",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_6_1_1.jpg?ts=1652948382536",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_6_2_1.jpg?ts=1652948382806",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_6_3_1.jpg?ts=1652948383642",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_6_4_1.jpg?ts=1652948382916",
+      "https://static.zara.net/photos///2022/I/1/1/p/3607/010/040/2/w/1920/3607010040_6_5_1.jpg?ts=1652948382844"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/sandaler-i-skinn-med-bred-klack-p11305010.html",
+    "name": "SANDALER I SKINN MED BRED KLACK",
+    "description": "Sandaler i skinn med breda, medelhöga klackar. Fyrkantig tå. Knäppning med spänne på vristen. \n\nAIRFIT®. Flexibel sportsula med skum av latex, utformad för att ge högre komfort.\n\nKlackhöjd: 6,4 cm",
+    "price": "699",
+    "image": "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/2/w/1920/1305010040_1_1_1.jpg?ts=1652952503216",
+    "sku": "186702813-040-35",
+    "color": "SVART",
+    "brand": "ZARA",
+    "size": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/2/w/1920/1305010040_2_1_1.jpg?ts=1652952503465",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/22/w/1920/1305010040_2_2_1.jpg?ts=1653041830241",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/22/w/1920/1305010040_2_3_1.jpg?ts=1653041830595",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/22/w/1920/1305010040_2_4_1.jpg?ts=1653041830629",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/22/w/1920/1305010040_2_5_1.jpg?ts=1653041830816",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/22/w/1920/1305010040_2_6_1.jpg?ts=1653041830761",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/2/w/1920/1305010040_6_1_1.jpg?ts=1653046077435",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/2/w/1920/1305010040_6_2_1.jpg?ts=1653046077920",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/2/w/1920/1305010040_6_3_1.jpg?ts=1653046078085",
+      "https://static.zara.net/photos///2022/I/1/1/p/1305/010/040/2/w/1920/1305010040_6_4_1.jpg?ts=1653046077784"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/plana-remsandaler-med-knutna-remmar-p13633910.html",
+    "name": "PLANA REMSANDALER MED KNUTNA REMMAR",
+    "description": "Plana sandaler. Tunna och korsade remmar. Tjock sula. Knäppning med remmar som går att knyta i vristen. \n\nSulans höjd: 4 cm",
+    "price": "699",
+    "image": "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_1_1_1.jpg?ts=1652952493430",
+    "sku": "186748867-100-35",
+    "color": "BRUN",
+    "brand": "ZARA",
+    "size": [
+      "35",
+      "39",
+      "40",
+      "42"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_15_1_1.jpg?ts=1652949009034",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_2_1_1.jpg?ts=1652952490563",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/22/w/1920/3633910100_2_2_1.jpg?ts=1653041640831",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/22/w/1920/3633910100_2_3_1.jpg?ts=1653041640702",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/22/w/1920/3633910100_2_4_1.jpg?ts=1653041640623",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_6_1_1.jpg?ts=1652953120005",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_6_2_1.jpg?ts=1652953120496",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_6_3_1.jpg?ts=1652953119699",
+      "https://static.zara.net/photos///2022/V/1/1/p/3633/910/100/2/w/1920/3633910100_6_4_1.jpg?ts=1652953120153"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/medellang-och-monstrad-klanning-p03198241.html",
+    "name": "MEDELLÅNG OCH MÖNSTRAD KLÄNNING",
+    "description": "Medellång klänning. V-ringning. Armbågslånga ärmar. Volang i nederkanten.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_1_1_1.jpg?ts=1652876791828",
+    "sku": "186702860-712-1",
+    "color": "NATURFÄRG",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_2_2_1.jpg?ts=1652876789847",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_2_3_1.jpg?ts=1652876791519",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_2_4_1.jpg?ts=1652959894348",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_6_1_1.jpg?ts=1652947110257",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_6_3_1.jpg?ts=1652947102276",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/241/712/2/w/1920/3198241712_6_2_1.jpg?ts=1653292464641"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/kjol-med-kontrasterande-broderier-p05107248.html",
+    "name": "KJOL MED KONTRASTERANDE BRODERIER",
+    "description": "Kort kjol. Hög midja. Linning med smockresår och snören. Kombinerade broderier i kontrast.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_1_1_1.jpg?ts=1652876789085",
+    "sku": "177677906-712-1",
+    "color": "NATURFÄRG",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_2_1_1.jpg?ts=1652876777176",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_2_2_1.jpg?ts=1652876782627",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_2_3_1.jpg?ts=1652876776107",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_6_1_1.jpg?ts=1652947118595",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_6_2_1.jpg?ts=1652947089407",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/248/712/2/w/1920/5107248712_6_3_1.jpg?ts=1653292465050"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/topp-med-broderier-i-kontrast-p05107242.html",
+    "name": "TOPP MED BRODERIER I KONTRAST",
+    "description": "Topp med V-ringning. Långa puffärmar. Kombinerade broderier i kontrast.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_1_1_1.jpg?ts=1652876774928",
+    "sku": "177653500-712-1",
+    "color": "NATURFÄRG",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_2_1_1.jpg?ts=1652876791331",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_2_2_1.jpg?ts=1652876774093",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_2_3_1.jpg?ts=1652876776551",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_6_1_1.jpg?ts=1652947097504",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_6_2_1.jpg?ts=1652947090722",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/242/712/2/w/1920/5107242712_6_3_1.jpg?ts=1652947129358"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/lang-skjorta-med-broderier-p05107240.html",
+    "name": "LÅNG SKJORTA MED BRODERIER",
+    "description": "Lång skjorta. Krage med slag. V-ringning. Långärmad. Kombinerade broderier i kontrast. Asymmetrisk nederkant med sidosprund. Knäppning på framsidan med knappar.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_1_1_1.jpg?ts=1652876790861",
+    "sku": "186748882-251-1",
+    "color": "BENVIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_2_1_1.jpg?ts=1652876791907",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_2_2_1.jpg?ts=1652876776771",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_2_3_1.jpg?ts=1652876776954",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_2_4_1.jpg?ts=1652876789050",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_2_5_1.jpg?ts=1652960054372",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_6_1_1.jpg?ts=1652947125746",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_6_2_1.jpg?ts=1652947104992",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_6_3_1.jpg?ts=1652947115032",
+      "https://static.zara.net/photos///2022/I/0/1/p/5107/240/251/2/w/1920/5107240251_6_4_1.jpg?ts=1652947123076"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/oversize-skjorta-i-linne-p02731088.html",
+    "name": "OVERSIZE-SKJORTA I LINNE",
+    "description": "Rymlig skjorta i 100 % linne. Krage med slag. Långärmad. Muddar i ärmsluten. Asymmetrisk nederkant med sidosprund. Knäppning på framsidan med knappar.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_1_1_1.jpg?ts=1652876773685",
+    "sku": "177657530-510-1",
+    "color": "OLJA",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_2_1_1.jpg?ts=1652876776303",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_2_2_1.jpg?ts=1652876773244",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_2_3_1.jpg?ts=1652876775732",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_2_4_1.jpg?ts=1652876773262",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_6_1_1.jpg?ts=1652947093249",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_6_2_1.jpg?ts=1652947104662",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/088/510/2/w/1920/2731088510_6_3_1.jpg?ts=1652947105614"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/oversize-skjorta-i-linne-p02731258.html",
+    "name": "OVERSIZE-SKJORTA I LINNE",
+    "description": "Rymlig skjorta i 100 % linne. Krage med slag. Långärmad. Muddar i ärmsluten. Asymmetrisk nederkant med sidosprund. Knäppning på framsidan med knappar.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_1_1_1.jpg?ts=1652876773775",
+    "sku": "177672328-300-1",
     "color": "GUL",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_2_1_1.jpg?ts=1652876777530",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_2_2_1.jpg?ts=1652876776966",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_2_3_1.jpg?ts=1652876773453",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_2_4_1.jpg?ts=1652876773611",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_2_5_1.jpg?ts=1652876777088",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_6_1_1.jpg?ts=1652947126357",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_6_2_1.jpg?ts=1652947092209",
+      "https://static.zara.net/photos///2022/I/0/1/p/2731/258/300/2/w/1920/2731258300_6_3_1.jpg?ts=1652947090786",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1210_0.jpg?ts=1626188364921"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/strukturkavaj-med-knappar-p03666469.html",
+    "name": "STRUKTURKAVAJ MED KNAPPAR",
+    "description": "Blazer. Krage med slag. Långa, uppvikta ärmar med knapp. Fickor med lock och knapp. Kombinerat foder i samma färg. Knäppning fram med metallknappar i relief.",
+    "price": "1195",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_1_1_1.jpg?ts=1652876777382",
+    "sku": "183300086-630-1",
+    "color": "FUCHSIA",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_2_1_1.jpg?ts=1652876778204",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_2_2_1.jpg?ts=1652876791661",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_2_3_1.jpg?ts=1652876777376",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_2_4_1.jpg?ts=1652876775981",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_2_5_1.jpg?ts=1652876777820",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_6_1_1.jpg?ts=1652947090784",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_6_2_1.jpg?ts=1652947091142",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_6_3_1.jpg?ts=1652947116987",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/469/630/2/w/1920/3666469630_6_4_1.jpg?ts=1652947128680"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/medellang-och-prickig-klanning-p03198240.html",
+    "name": "MEDELLÅNG OCH PRICKIG KLÄNNING",
+    "description": "Medellång klänning. Rak urringning. Breda axelband med volanger. Smockresår. Volang i nederkanten.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_1_1_1.jpg?ts=1652961800864",
+    "sku": "177649159-712-1",
+    "color": "NATURFÄRG",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_2_1_1.jpg?ts=1652961625085",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_2_3_1.jpg?ts=1652961625350",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_2_4_1.jpg?ts=1652961625034",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_6_1_1.jpg?ts=1652947109636",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_6_2_1.jpg?ts=1652947110028",
+      "https://static.zara.net/photos///2022/I/0/1/p/3198/240/712/2/w/1920/3198240712_6_3_1.jpg?ts=1652947113323",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1351_0.jpg?ts=1626188384887"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/parlvirkad-axelvaska-p16230010.html",
+    "name": "PÄRLVIRKAD AXELVÄSKA",
+    "description": "Axelväska i tyg. Virkade sidor med pärlformad struktur. Foder med ficka. Axelrem. Magnetknäppning. \n\nHöjd x Bredd x Djup: 16,5 x 28 x 5 cm",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/V/1/1/p/6232/010/033/2/w/1920/6232010033_1_1_1.jpg?ts=1652952495488",
+    "sku": "186749359-033-3",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/1/1/p/6232/010/033/2/w/1920/6232010033_6_1_1.jpg?ts=1653039561280",
+      "https://static.zara.net/photos///2022/V/1/1/p/6232/010/033/2/w/1920/6232010033_6_2_1.jpg?ts=1653039561143",
+      "https://static.zara.net/photos///2022/V/1/1/p/6232/010/033/2/w/1920/6232010033_6_3_1.jpg?ts=1653039560757",
+      "https://static.zara.net/photos///2022/V/1/1/p/6232/010/033/2/w/1920/6232010033_6_4_1.jpg?ts=1653039561224",
+      "https://static.zara.net/photos///2022/V/1/1/p/6232/010/033/2/w/1920/6232010033_6_5_1.jpg?ts=1653039560755"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/virkad-shopper-med-parlformad-struktur-p16234010.html",
+    "name": "VIRKAD SHOPPER MED PÄRLFORMAD STRUKTUR",
+    "description": "Shopper i tyg. Virkade sidor med pärlformad struktur. Foder med fickor. Axelremmar. Magnetknäppning. \n\nHöjd x Bredd x Djup: 31,5 x 42 x 10,5 cm",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_1_1_1.jpg?ts=1653031534825",
+    "sku": "186749428-002-3",
+    "color": "NATURVIT",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_2_1_1.jpg?ts=1653031531908",
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_2_2_1.jpg?ts=1653031534463",
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_6_1_1.jpg?ts=1653039003017",
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_6_2_1.jpg?ts=1653039003228",
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_6_3_1.jpg?ts=1653039002821",
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_6_4_1.jpg?ts=1653039002393",
+      "https://static.zara.net/photos///2022/V/1/1/p/6234/010/002/2/w/1920/6234010002_6_5_1.jpg?ts=1653039002521"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/parlvirkad-pasvaska-p16233010.html",
+    "name": "PÄRLVIRKAD PÅSVÄSKA",
+    "description": "Påsväska av tyg. Virkade sidor med pärlformad struktur. Foder med fickor. Handtag av trä och löstagbar axelrem av metallkedja. Magnetknäppning. \n\nHöjd x Bredd x Djup: 26,5 x 32 x 16 cm",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/V/1/1/p/6233/010/111/2/w/1920/6233010111_15_1_1.jpg?ts=1653032134585",
+    "sku": "186722974-111-3",
+    "color": "NATUR",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/1/1/p/6233/010/111/2/w/1920/6233010111_6_1_1.jpg?ts=1653040320615",
+      "https://static.zara.net/photos///2022/V/1/1/p/6233/010/111/2/w/1920/6233010111_6_2_1.jpg?ts=1653040322502",
+      "https://static.zara.net/photos///2022/V/1/1/p/6233/010/111/2/w/1920/6233010111_6_3_1.jpg?ts=1653040323805",
+      "https://static.zara.net/photos///2022/V/1/1/p/6233/010/111/2/w/1920/6233010111_6_4_1.jpg?ts=1653040321502"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/virkad-miniklanning-limited-edition-p03653005.html",
+    "name": "VIRKAD MINIKLÄNNING LIMITED EDITION",
+    "description": "Klänning med rak ringning. Breda axelband.\n\nDen här varan har inget foder.",
+    "price": "699",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3653/005/330/3/w/1920/3653005330_1_1_1.jpg?ts=1653299603560",
+    "sku": "186749134-330-2",
+    "color": "FLERFÄRGAD",
     "brand": "ZARA",
     "size": [
       "S",
       "M"
     ],
     "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/035/300/2/w/1920/1930035300_2_1_1.jpg?ts=1652870469369",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/035/300/2/w/1920/1930035300_6_1_1.jpg?ts=1652690062134",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/035/300/2/w/1920/1930035300_6_2_1.jpg?ts=1652690073549",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/035/300/2/w/1920/1930035300_6_3_1.jpg?ts=1652690069188"
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/005/330/3/w/1920/3653005330_15_1_1.jpg?ts=1653070065661",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/005/330/2/w/1920/3653005330_6_1_1.jpg?ts=1652970107030",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/005/330/2/w/1920/3653005330_6_2_1.jpg?ts=1652970091725",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/005/330/2/w/1920/3653005330_6_3_1.jpg?ts=1652970107642",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
     ]
   },
   {
-    "productLink": "https://www.zara.com/se/sv/virkad-t-shirt-med-smycke-p05070155.html",
-    "name": "VIRKAD T-SHIRT MED SMYCKE",
-    "description": "Linne. Rund krage. Ärmlös. Detalj med virkad applikation i samma färg och smyckning.",
-    "price": "239",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_1_1_1.jpg?ts=1652868855065",
-    "sku": "185857613-250-2",
+    "productLink": "https://www.zara.com/se/sv/lang-virkad-klanning-limited-edition-p00021101.html",
+    "name": "LÅNG VIRKAD KLÄNNING LIMITED EDITION",
+    "description": "Klänning med rund krage. Långärmad.",
+    "price": "999",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/0021/101/711/22/w/1920/0021101711_1_1_1.jpg?ts=1653299980485",
+    "sku": "186723051-711-2",
+    "color": "SANDFÄRGAD",
+    "brand": "ZARA",
+    "size": [
+      "S",
+      "M"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/0021/101/711/22/w/1920/0021101711_2_1_1.jpg?ts=1653299976748",
+      "https://static.zara.net/photos///2022/I/0/1/p/0021/101/711/2/w/1920/0021101711_6_1_1.jpg?ts=1652947120527",
+      "https://static.zara.net/photos///2022/I/0/1/p/0021/101/711/2/w/1920/0021101711_6_2_1.jpg?ts=1652947112773",
+      "https://static.zara.net/photos///2022/I/0/1/p/0021/101/711/2/w/1920/0021101711_6_3_1.jpg?ts=1652947117391"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/virkad-klanning-limited-edition-p02142314.html",
+    "name": "VIRKAD KLÄNNING LIMITED EDITION",
+    "description": "Miniklänning. Krage med slag. V-ringning. Kortärmad.",
+    "price": "859",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/2142/314/330/3/w/1920/2142314330_1_1_1.jpg?ts=1653299614152",
+    "sku": "186749619-330-2",
+    "color": "FLERFÄRGAD",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/2142/314/330/2/w/1920/2142314330_6_1_1.jpg?ts=1653043272111",
+      "https://static.zara.net/photos///2022/I/0/1/p/2142/314/330/2/w/1920/2142314330_6_2_1.jpg?ts=1653043271367",
+      "https://static.zara.net/photos///2022/I/0/1/p/2142/314/330/2/w/1920/2142314330_6_3_1.jpg?ts=1653043271335"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/virkad-topp-cropped-limited-edition-p03653006.html",
+    "name": "VIRKAD TOPP CROPPED LIMITED EDITION",
+    "description": "Topp med V-ringning. Kortärmad. Asymmetrisk nederkant.\n\nDen här varan har inget foder.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3653/006/330/22/w/1920/3653006330_1_1_1.jpg?ts=1653299737042",
+    "sku": "186703055-330-2",
+    "color": "FLERFÄRGAD",
+    "brand": "ZARA",
+    "size": [
+      "S",
+      "M"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/006/330/22/w/1920/3653006330_2_1_1.jpg?ts=1653299603594",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/006/330/2/w/1920/3653006330_6_1_1.jpg?ts=1652970091384",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/006/330/2/w/1920/3653006330_6_2_1.jpg?ts=1652977139585",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/006/330/2/w/1920/3653006330_6_3_1.jpg?ts=1652977143282",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/stickad-miniklanning-limited-edition-p03653008.html",
+    "name": "STICKAD MINIKLÄNNING LIMITED EDITION",
+    "description": "Klänning. Rund urringning. Breda axelband.\n\nDen här varan har inget foder.",
+    "price": "699",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3653/008/415/3/w/1920/3653008415_1_1_1.jpg?ts=1653299603975",
+    "sku": "186749618-415-2",
+    "color": "NEONBLÅ",
+    "brand": "ZARA",
+    "size": [
+      "S",
+      "M",
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/008/415/2/w/1920/3653008415_6_1_1.jpg?ts=1652970092256",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/008/415/2/w/1920/3653008415_6_2_1.jpg?ts=1652977143331",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/008/415/2/w/1920/3653008415_6_3_1.jpg?ts=1652977139210",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/stickad-topp-med-volangarmar-p03653007.html",
+    "name": "STICKAD TOPP MED VOLANGÄRMAR",
+    "description": "Topp. Rund krage. Ärmlös. Volanger.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3653/007/415/3/w/1920/3653007415_1_1_1.jpg?ts=1653299614145",
+    "sku": "186703053-415-2",
+    "color": "NEONBLÅ",
+    "brand": "ZARA",
+    "size": [
+      "S",
+      "M",
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/007/415/2/w/1920/3653007415_6_1_1.jpg?ts=1652947112317",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/007/415/2/w/1920/3653007415_6_2_1.jpg?ts=1652947107071",
+      "https://static.zara.net/photos///2022/I/0/1/p/3653/007/415/2/w/1920/3653007415_6_3_1.jpg?ts=1652947127391",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/maxipasvaska-med-fransar-p16245910.html",
+    "name": "MAXIPÅSVÄSKA MED FRANSAR",
+    "description": "Påsväska maxi. Flätad. Detalj med fransar. Axelremmar.\n\nHöjd x Bredd: 33,5 x 35 cm",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/V/1/1/p/6245/910/090/2/w/1920/6245910090_6_1_1.jpg?ts=1652863410187",
+    "sku": "186723069-090-3",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/090/2/w/1920/6245910090_6_2_1.jpg?ts=1652863407543",
+      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/090/2/w/1920/6245910090_6_3_1.jpg?ts=1652863410618",
+      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/090/2/w/1920/6245910090_6_4_1.jpg?ts=1652863408718",
+      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/090/2/w/1920/6245910090_6_5_1.jpg?ts=1652863414390"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/djurmonstrad-miniklanning-p02298156.html",
+    "name": "DJURMÖNSTRAD MINIKLÄNNING",
+    "description": "Klänning. Vid urringning. Tunna axelband. Strass på ryggen.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/2298/156/037/2/w/1920/2298156037_1_1_1.jpg?ts=1653164520873",
+    "sku": "186723058-037-1",
+    "color": "ZEBRA",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/2298/156/037/2/w/1920/2298156037_2_5_1.jpg?ts=1653164615508",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/156/037/2/w/1920/2298156037_6_1_1.jpg?ts=1652091599970",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/156/037/2/w/1920/2298156037_6_2_1.jpg?ts=1652091618109",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/156/037/2/w/1920/2298156037_6_3_1.jpg?ts=1652091646385",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1247_0.jpg?ts=1626188358051"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/klanning-med-halterneck-och-cut-out-p09006152.html",
+    "name": "KLÄNNING MED HALTERNECK OCH CUT OUT",
+    "description": "Miniklänning. Halterneck. Fodrade knappar i samma färg i kragen. Sprund fram på midjan. Öppen rygg. Tunna och krusade remmar i ryggen. Knäppning i sidan med dold dragkedja i sömmen.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/9006/152/800/2/w/1920/9006152800_1_1_1.jpg?ts=1653164983063",
+    "sku": "186749623-800-1",
+    "color": "SVART",
+    "brand": "ZARA",
+    "size": [
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/9006/152/800/2/w/1920/9006152800_2_1_1.jpg?ts=1653165063970",
+      "https://static.zara.net/photos///2022/I/0/1/p/9006/152/800/2/w/1920/9006152800_6_1_1.jpg?ts=1652091615018",
+      "https://static.zara.net/photos///2022/I/0/1/p/9006/152/800/2/w/1920/9006152800_6_2_1.jpg?ts=1652091626960",
+      "https://static.zara.net/photos///2022/I/0/1/p/9006/152/800/2/w/1920/9006152800_6_3_1.jpg?ts=1652091640436"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/zebramonstrad-miniklanning-med-cut-out-p00387069.html",
+    "name": "ZEBRAMÖNSTRAD MINIKLÄNNING MED CUT OUT",
+    "description": "Klänning. V-ringning. Tunna axelband. Sprund fram och bak. Knäppning i sidan med dold dragkedja i sömmen.",
+    "price": "399",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/0387/069/070/2/w/1920/0387069070_1_1_1.jpg?ts=1653164518979",
+    "sku": "186749141-070-1",
+    "color": "NATURFÄRG/SVART",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/0387/069/070/2/w/1920/0387069070_6_1_1.jpg?ts=1652091582021",
+      "https://static.zara.net/photos///2022/I/0/1/p/0387/069/070/2/w/1920/0387069070_6_2_1.jpg?ts=1652091604305",
+      "https://static.zara.net/photos///2022/I/0/1/p/0387/069/070/2/w/1920/0387069070_6_3_1.jpg?ts=1652091626875",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1415_0.jpg?ts=1631607840183"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/blazer-klanning-med-oppen-rygg-p01971092.html",
+    "name": "BLAZER-KLÄNNING MED ÖPPEN RYGG",
+    "description": "Blazer-klänning. Krage med slag. Långärmad. Sprund i ärmsluten. Öppen rygg. Knäppning fram med knytning. Kombinerade länkar i kontrast.",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/1971/092/251/2/w/1920/1971092251_2_5_1.jpg?ts=1653164533191",
+    "sku": "186749142-251-1",
+    "color": "BENVIT",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/1971/092/251/2/w/1920/1971092251_2_6_1.jpg?ts=1653164794692",
+      "https://static.zara.net/photos///2022/I/0/1/p/1971/092/251/2/w/1920/1971092251_6_1_1.jpg?ts=1652091622132",
+      "https://static.zara.net/photos///2022/I/0/1/p/1971/092/251/2/w/1920/1971092251_6_2_1.jpg?ts=1652091622567",
+      "https://static.zara.net/photos///2022/I/0/1/p/1971/092/251/2/w/1920/1971092251_6_3_1.jpg?ts=1652091635930",
+      "https://static.zara.net/photos///2022/I/0/1/p/1971/092/251/2/w/1920/1971092251_6_4_1.jpg?ts=1652091611264"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/monstrade-shorts-denim-mom-fit-p06147090.html",
+    "name": "MÖNSTRADE SHORTS DENIM MOM FIT",
+    "description": "Shorts med hög midja. Fem fickor. Knäppning fram med metallknappar.",
+    "price": "259",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/6147/090/064/2/w/1920/6147090064_1_1_1.jpg?ts=1653164694029",
+    "sku": "186703064-064-32",
+    "color": "VIT/SVART",
+    "brand": "ZARA",
+    "size": [
+      "32",
+      "34",
+      "36",
+      "38",
+      "42"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/6147/090/064/2/w/1920/6147090064_2_1_1.jpg?ts=1653164728660",
+      "https://static.zara.net/photos///2022/V/0/1/p/6147/090/064/2/w/1920/6147090064_6_1_1.jpg?ts=1650269509811",
+      "https://static.zara.net/photos///2022/V/0/1/p/6147/090/064/2/w/1920/6147090064_6_2_1.jpg?ts=1650269509116",
+      "https://static.zara.net/photos///2022/V/0/1/p/6147/090/064/2/w/1920/6147090064_6_3_1.jpg?ts=1650269510638"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/glattad-klanning-med-cut-out-p02298139.html",
+    "name": "GLÄTTAD KLÄNNING MED CUT OUT",
+    "description": "Midiklänning. V-ringning. Axelband. Sprund i midjan med tunna remmar. Sprund fram på nederkanten. Knäppning i sidan med dold dragkedja i sömmen.",
+    "price": "499",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/2298/139/250/2/w/1920/2298139250_2_5_1.jpg?ts=1653164909075",
+    "sku": "186703065-250-1",
     "color": "VIT",
+    "brand": "ZARA",
+    "size": [],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/139/250/2/w/1920/2298139250_6_1_1.jpg?ts=1652091611042",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/139/250/2/w/1920/2298139250_6_2_1.jpg?ts=1652091631908",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/139/250/2/w/1920/2298139250_6_3_1.jpg?ts=1652091651438",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/139/250/2/w/1920/2298139250_6_4_1.jpg?ts=1652091642167"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/miniklanning-med-applikation-i-midjan-p03666101.html",
+    "name": "MINIKLÄNNING MED APPLIKATION I MIDJAN",
+    "description": "Klänning. V-ringning. Tunna axelband. Kombinerad applikation fram i samma färg. Knäppning i ryggen med dragkedja dold i sömmen.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/I/0/1/p/3666/101/800/2/w/1920/3666101800_1_1_1.jpg?ts=1653164970915",
+    "sku": "186749622-800-1",
+    "color": "SVART",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/101/800/2/w/1920/3666101800_6_1_1.jpg?ts=1652091612693",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/101/800/2/w/1920/3666101800_6_2_1.jpg?ts=1652091643501",
+      "https://static.zara.net/photos///2022/I/0/1/p/3666/101/800/2/w/1920/3666101800_6_3_1.jpg?ts=1652091647249"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/kort-och-djurmonstrad-topp-p02298157.html",
+    "name": "KORT OCH DJURMÖNSTRAD TOPP",
+    "description": "Glansig topp. V-ringning. Tunna axelband som är korsade i ryggen med knytning. Öppen rygg med resårremmar.",
+    "price": "259",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/2298/157/037/2/w/1920/2298157037_1_1_1.jpg?ts=1653164533137",
+    "sku": "186703067-037-1",
+    "color": "ZEBRA",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/157/037/2/w/1920/2298157037_6_1_1.jpg?ts=1652091589376",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/157/037/2/w/1920/2298157037_6_2_1.jpg?ts=1652091644668",
+      "https://static.zara.net/photos///2022/I/0/1/p/2298/157/037/2/w/1920/2298157037_6_3_1.jpg?ts=1652091617789",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1247_0.jpg?ts=1626188358051"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/djurmonstrad-och-medellang-kjol-p00387071.html",
+    "name": "DJURMÖNSTRAD OCH MEDELLÅNG KJOL",
+    "description": "Kjol. Hög midja med omlott fram. Nederkant med sprund fram. Knäppning i sidan med dold dragkedja i sömmen.",
+    "price": "359",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/0387/071/070/2/w/1920/0387071070_1_1_1.jpg?ts=1653164725114",
+    "sku": "186703066-070-1",
+    "color": "NATURFÄRG/SVART",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/0/1/p/0387/071/070/2/w/1920/0387071070_6_1_1.jpg?ts=1652091581537",
+      "https://static.zara.net/photos///2022/I/0/1/p/0387/071/070/2/w/1920/0387071070_6_2_1.jpg?ts=1652091600067",
+      "https://static.zara.net/photos///2022/I/0/1/p/0387/071/070/2/w/1920/0387071070_6_3_1.jpg?ts=1652091624634",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1415_0.jpg?ts=1631607840183"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/poplinskjorta-i-basmodell-p08741023.html",
+    "name": "POPLINSKJORTA I BASMODELL",
+    "description": "Skjorta. Krage med slag. Långärmad. Påsydd framficka. Asymmetrisk nederkant. Knäppning på framsidan med knappar.",
+    "price": "259",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/2298/129/250/2/w/1920/2298129250_6_1_1.jpg?ts=1650555955657",
+    "sku": "186703060-250-1",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/2298/129/250/2/w/1920/2298129250_6_2_1.jpg?ts=1650555951297",
+      "https://static.zara.net/photos///2022/V/0/1/p/2298/129/250/2/w/1920/2298129250_6_3_1.jpg?ts=1650555960390",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-904_0.jpg?ts=1631608627030"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/hogklackade-sandaler-med-glitter-p12317010.html",
+    "name": "HÖGKLACKADE SANDALER MED GLITTER",
+    "description": "Högklackade sandaler. Tunna, korsade remmar med glitterdetalj. Fyrkantig tå. Knäppning med vristband. Spänne på vristen. \n\nAIRFIT®. Flexibel sportsula med skum av latex, utformad för att ge högre komfort.\n\nKlackhöjd: 9,8 cm",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/1/1/p/2317/010/009/2/2317010009_16_1_1/w/1920/poster.glb?ts=1653054340677",
+    "sku": "186748866-009-35",
+    "color": "BLÅ",
+    "brand": "ZARA",
+    "size": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/1/1/p/2317/010/009/2/w/1920/2317010009_6_1_1.jpg?ts=1652443269916",
+      "https://static.zara.net/photos///2022/I/1/1/p/2317/010/009/2/w/1920/2317010009_6_2_1.jpg?ts=1652443269231",
+      "https://static.zara.net/photos///2022/I/1/1/p/2317/010/009/2/w/1920/2317010009_6_3_1.jpg?ts=1652443270007",
+      "https://static.zara.net/photos///2022/I/1/1/p/2317/010/009/2/w/1920/2317010009_6_4_1.jpg?ts=1652443269687"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/hogklackade-sandaler-med-glitter-p12315010.html",
+    "name": "HÖGKLACKADE SANDALER MED GLITTER",
+    "description": "Högklackade sandaler. Tunn rem på framsidan med detalj med glitter. Fyrkantig tå. Knäppning med spänne på vristen. \n\nAIRFIT®. Flexibel sportsula med skum av latex, utformad för att ge högre komfort.\n\nKlackhöjd: 9,2 cm",
+    "price": "559",
+    "image": "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/w/1920/2316010060_1_1_1.jpg?ts=1652686558581",
+    "sku": "186749345-060-35",
+    "brand": "ZARA",
+    "size": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/w/1920/2316010060_2_1_1.jpg?ts=1652686557163",
+      "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/2316010060_16_1_1/w/1920/poster.glb?ts=1653054368031",
+      "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/w/1920/2316010060_6_1_1.jpg?ts=1652706969872",
+      "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/w/1920/2316010060_6_2_1.jpg?ts=1652706970543",
+      "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/w/1920/2316010060_6_3_1.jpg?ts=1652706971606",
+      "https://static.zara.net/photos///2022/I/1/1/p/2316/010/060/2/w/1920/2316010060_6_4_1.jpg?ts=1652706971477",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-TEMPE1281_0.jpg?ts=1627309816243"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/kortarmad-t-shirt-minimal-p04174014.html",
+    "name": "KORTÄRMAD T-SHIRT MINIMAL",
+    "description": "T-shirt minimal. Rund krage. Kortärmad. Kanter i rib.",
+    "price": "169",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/3/w/1920/4174014250_1_1_1.jpg?ts=1653046211582",
+    "sku": "186749115-250-1",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/3/w/1920/4174014250_2_1_1.jpg?ts=1653046209788",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/3/w/1920/4174014250_2_2_1.jpg?ts=1653046207612",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/3/w/1920/4174014250_2_3_1.jpg?ts=1653046208729",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/2/w/1920/4174014250_6_1_1.jpg?ts=1652366203362",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/2/w/1920/4174014250_6_2_1.jpg?ts=1652366206988",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/014/250/2/w/1920/4174014250_6_3_1.jpg?ts=1652366205202",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/linne-minimal-med-halterneck-p04174013.html",
+    "name": "LINNE MINIMAL MED HALTERNECK",
+    "description": "Linne med halterneck. Kanter i rib.",
+    "price": "129",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/3/w/1920/4174013800_1_1_1.jpg?ts=1653046186954",
+    "sku": "186749480-800-1",
+    "brand": "ZARA",
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "extraImage": [
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/3/w/1920/4174013800_2_1_1.jpg?ts=1653046185600",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/3/w/1920/4174013800_2_2_1.jpg?ts=1653046186517",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/3/w/1920/4174013800_2_3_1.jpg?ts=1653046186268",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/3/w/1920/4174013800_2_4_1.jpg?ts=1653046186455",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/2/w/1920/4174013800_6_1_1.jpg?ts=1652357938691",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/2/w/1920/4174013800_6_2_1.jpg?ts=1652357936983",
+      "https://static.zara.net/photos///2022/V/0/1/p/4174/013/800/2/w/1920/4174013800_6_3_1.jpg?ts=1652357938549",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
+    ]
+  },
+  {
+    "productLink": "https://www.zara.com/se/sv/vid-sarongbyxa-p00264049.html",
+    "name": "VID SARONGBYXA",
+    "description": "Byxa. Hög midja. Resårlinning. Överlappande och justerbart sarongtyg med knytningar. Vida ben.",
+    "price": "259",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/12/w/1920/0264049741_2_1_1.jpg?ts=1653051102606",
+    "sku": "186749040-741-2",
     "brand": "ZARA",
     "size": [
       "S",
@@ -35,207 +1115,70 @@
       "XL"
     ],
     "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_2_1_1.jpg?ts=1652868854924",
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_2_2_1.jpg?ts=1652868855514",
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_2_3_1.jpg?ts=1652868854641",
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_2_4_1.jpg?ts=1652870461708",
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_6_1_1.jpg?ts=1652689825857",
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_6_2_1.jpg?ts=1652689881684",
-      "https://static.zara.net/photos///2022/I/0/1/p/5070/155/250/2/w/1920/5070155250_6_3_1.jpg?ts=1652689828028"
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/12/w/1920/0264049741_2_2_1.jpg?ts=1653049831340",
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/12/w/1920/0264049741_2_3_1.jpg?ts=1653049827707",
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/12/w/1920/0264049741_2_4_1.jpg?ts=1653049829234",
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/12/w/1920/0264049741_2_5_1.jpg?ts=1653049828309",
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/2/w/1920/0264049741_6_1_1.jpg?ts=1646905877121",
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/2/w/1920/0264049741_6_2_1.jpg?ts=1646905828891",
+      "https://static.zara.net/photos///2022/V/0/1/p/0264/049/741/2/w/1920/0264049741_6_3_1.jpg?ts=1646905829253"
     ]
   },
   {
-    "productLink": "https://www.zara.com/se/sv/asymmetrisk-body-med-veck-p00264031.html",
-    "name": "ASYMMETRISK BODY MED VECK",
-    "description": "Body. Asymmetrisk urringning. Långärmad. Veck i sidorna. Knäppning nedtill med knappar.",
-    "price": "229",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/0264/031/250/2/w/1920/0264031250_1_1_1.jpg?ts=1652868828632",
-    "sku": "186626953-250-2",
-    "brand": "ZARA",
-    "size": [],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/0264/031/250/2/w/1920/0264031250_2_2_1.jpg?ts=1652870467256",
-      "https://static.zara.net/photos///2022/V/0/1/p/0264/031/250/2/w/1920/0264031250_6_1_1.jpg?ts=1652690058560",
-      "https://static.zara.net/photos///2022/V/0/1/p/0264/031/250/2/w/1920/0264031250_6_2_1.jpg?ts=1652690058139",
-      "https://static.zara.net/photos///2022/V/0/1/p/0264/031/250/2/w/1920/0264031250_6_3_1.jpg?ts=1652690086593"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/kort-t-shirt-p04424159.html",
-    "name": "KORT T-SHIRT",
-    "description": "Kort T-shirt med rund krage. Kortärmad.",
-    "price": "79",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/4424/159/710/12/w/1920/4424159710_1_1_1.jpg?ts=1652871691921",
-    "sku": "185515278-710-1",
+    "productLink": "https://www.zara.com/se/sv/linne-med-knytning-p05644080.html",
+    "name": "LINNE MED KNYTNING",
+    "description": "T-shirt. V-ringning. Kortärmad. Knut med veck på framsidan.",
+    "price": "169",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_1_1_1.jpg?ts=1653049893835",
+    "sku": "186749503-500-2",
     "brand": "ZARA",
     "size": [
       "S"
     ],
     "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/4424/159/710/12/w/1920/4424159710_2_1_1.jpg?ts=1652874849604",
-      "https://static.zara.net/photos///2022/V/0/1/p/4424/159/710/12/w/1920/4424159710_2_2_1.jpg?ts=1652874914182",
-      "https://static.zara.net/photos///2021/I/0/1/p/4424/159/710/2/w/1920/4424159710_6_1_1.jpg?ts=1623747453873",
-      "https://static.zara.net/photos///2021/I/0/1/p/4424/159/710/2/w/1920/4424159710_6_2_1.jpg?ts=1623747451090",
-      "https://static.zara.net/photos///2021/I/0/1/p/4424/159/710/2/w/1920/4424159710_6_3_1.jpg?ts=1623747459925",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-929_0.jpg?ts=1626193557561"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/body-med-halterneck-p04174178.html",
-    "name": "BODY MED HALTERNECK",
-    "description": "Body. Halterneck. Tunna axelband. Knäppning nedtill med knappar.",
-    "price": "169",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/12/w/1920/4174178800_1_1_1.jpg?ts=1652870898834",
-    "sku": "186627452-800-1",
-    "brand": "ZARA",
-    "size": [
-      "S",
-      "M",
-      "L"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/12/w/1920/4174178800_2_1_1.jpg?ts=1652870899726",
-      "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/12/w/1920/4174178800_2_2_1.jpg?ts=1652870897166",
-      "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/12/w/1920/4174178800_2_3_1.jpg?ts=1652873958672",
-      "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/2/w/1920/4174178800_6_1_1.jpg?ts=1647270532831",
-      "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/2/w/1920/4174178800_6_2_1.jpg?ts=1647270552030",
-      "https://static.zara.net/photos///2022/V/0/1/p/4174/178/800/2/w/1920/4174178800_6_3_1.jpg?ts=1647270537776",
+      "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_2_1_1.jpg?ts=1653049890163",
+      "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_2_2_1.jpg?ts=1653049889726",
+      "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_2_3_1.jpg?ts=1653049892093",
+      "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_6_1_1.jpg?ts=1649085058342",
+      "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_6_2_1.jpg?ts=1649085079131",
+      "https://static.zara.net/photos///2022/V/0/1/p/5644/080/500/2/w/1920/5644080500_6_3_1.jpg?ts=1649085103647",
       "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
     ]
   },
   {
-    "productLink": "https://www.zara.com/se/sv/jacquardklanning-med-strass-p01930034.html",
-    "name": "JACQUARDKLÄNNING MED STRASS",
-    "description": "Kort klänning. V-ringning. Tunna axelband. Falska framfickor med lock. Strassapplikationer.",
-    "price": "399",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_1_1_1.jpg?ts=1652868828403",
-    "sku": "186310249-098-2",
-    "color": "GRÖN/NATURFÄRGAD",
+    "productLink": "https://www.zara.com/se/sv/t-shirt-cropped-i-bomull-p02335006.html",
+    "name": "T-SHIRT CROPPED I BOMULL",
+    "description": "Kort T-shirt i 100 % bomull. Rund krage. Kortärmad.",
+    "price": "119",
+    "image": "https://static.zara.net/photos///2022/V/0/1/p/2335/006/500/12/w/1920/2335006500_1_1_1.jpg?ts=1653046304438",
+    "sku": "186723028-500-2",
     "brand": "ZARA",
     "size": [
       "S",
-      "M",
-      "L"
+      "M"
     ],
     "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_2_1_1.jpg?ts=1652868828785",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_2_2_1.jpg?ts=1652868829209",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_2_3_1.jpg?ts=1652870467424",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_6_1_1.jpg?ts=1652716673462",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_6_2_1.jpg?ts=1652716709239",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/034/098/2/w/1920/1930034098_6_3_1.jpg?ts=1652716660094"
+      "https://static.zara.net/photos///2022/V/0/1/p/2335/006/500/12/w/1920/2335006500_2_1_1.jpg?ts=1653046305119",
+      "https://static.zara.net/photos///2022/V/0/1/p/2335/006/500/12/w/1920/2335006500_2_2_1.jpg?ts=1653046305472",
+      "https://static.zara.net/photos///2022/V/0/1/p/2335/006/500/12/w/1920/2335006500_2_3_1.jpg?ts=1653046305702",
+      "https://static.zara.net/photos///2022/V/0/1/p/2335/006/500/12/w/1920/2335006500_2_4_1.jpg?ts=1653046306359",
+      "https://static.zara.net/photos///2022/V/0/1/p/1198/996/500/2/w/1920/1198996500_6_1_1.jpg?ts=1652690058276",
+      "https://static.zara.net/photos///2022/V/0/1/p/1198/996/500/2/w/1920/1198996500_6_2_1.jpg?ts=1652690058391",
+      "https://static.zara.net/photos///2022/V/0/1/p/1198/996/500/2/w/1920/1198996500_6_3_1.jpg?ts=1652690082309",
+      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1014_0.jpg?ts=1626188315102"
     ]
   },
   {
-    "productLink": "https://www.zara.com/se/sv/topp-i-rib-med-knytningar-p00962163.html",
-    "name": "TOPP I RIB MED KNYTNINGAR",
-    "description": "Linne med V-ringning och omlott. Ärmlös. Kombinerade knytningar i samma färg.",
-    "price": "169",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/0962/163/250/2/w/1920/0962163250_1_1_1.jpg?ts=1652870467374",
-    "sku": "175310337-250-2",
-    "brand": "ZARA",
-    "size": [
-      "S",
-      "M",
-      "L"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/0962/163/250/2/w/1920/0962163250_2_2_1.jpg?ts=1652870468317",
-      "https://static.zara.net/photos///2022/V/0/1/p/0962/163/250/2/w/1920/0962163250_6_1_1.jpg?ts=1652690061153",
-      "https://static.zara.net/photos///2022/V/0/1/p/0962/163/250/2/w/1920/0962163250_6_2_1.jpg?ts=1652690062192",
-      "https://static.zara.net/photos///2022/V/0/1/p/0962/163/250/2/w/1920/0962163250_6_3_1.jpg?ts=1652690079534",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/topp-med-smycke-p01165516.html",
-    "name": "TOPP MED SMYCKE",
-    "description": "Topp. Rund krage. Breda axelband. Strassapplikationer på framsidan.",
-    "price": "169",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/1165/516/250/2/w/1920/1165516250_1_1_1.jpg?ts=1652869954219",
-    "sku": "176761574-250-2",
-    "color": "VIT",
-    "brand": "ZARA",
-    "size": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/1165/516/250/2/w/1920/1165516250_2_1_1.jpg?ts=1652869952150",
-      "https://static.zara.net/photos///2022/V/0/1/p/1165/516/250/2/w/1920/1165516250_6_1_1.jpg?ts=1652690061898",
-      "https://static.zara.net/photos///2022/V/0/1/p/1165/516/250/2/w/1920/1165516250_6_2_1.jpg?ts=1652690070119",
-      "https://static.zara.net/photos///2022/V/0/1/p/1165/516/250/2/w/1920/1165516250_6_3_1.jpg?ts=1652690062402",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1024_0.jpg?ts=1626188313731"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/shorts-i-jacquard-med-strass-p01930045.html",
-    "name": "SHORTS I JACQUARD MED STRASS",
-    "description": "Shorts med hög midja. Strassapplikationer.",
-    "price": "299",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/1930/045/080/2/w/1920/1930045080_1_1_1.jpg?ts=1652868827828",
-    "sku": "186627426-080-2",
-    "color": "NATURFÄRG/BLÅ",
-    "brand": "ZARA",
-    "size": [],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/045/080/2/w/1920/1930045080_2_1_1.jpg?ts=1652868828321",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/045/080/2/w/1920/1930045080_2_2_1.jpg?ts=1652870467427",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/045/080/2/w/1920/1930045080_6_1_1.jpg?ts=1652690059169",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/045/080/2/w/1920/1930045080_6_2_1.jpg?ts=1652690060964",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/045/080/2/w/1920/1930045080_6_3_1.jpg?ts=1652690070220"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/topp-i-jacquard-med-strass-p01930044.html",
-    "name": "TOPP I JACQUARD MED STRASS",
-    "description": "Topp. Hjärtformad urringning. Axelband. Strassapplikationer.",
-    "price": "299",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/1930/044/080/2/w/1920/1930044080_1_1_1.jpg?ts=1652868827053",
-    "sku": "186310250-080-2",
-    "color": "NATURFÄRG/BLÅ",
-    "brand": "ZARA",
-    "size": [],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/044/080/2/w/1920/1930044080_2_1_1.jpg?ts=1652868826505",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/044/080/2/w/1920/1930044080_2_2_1.jpg?ts=1652870467058",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/044/080/2/w/1920/1930044080_6_1_1.jpg?ts=1652690075766",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/044/080/2/w/1920/1930044080_6_2_1.jpg?ts=1652690058471",
-      "https://static.zara.net/photos///2022/V/0/1/p/1930/044/080/2/w/1920/1930044080_6_3_1.jpg?ts=1652690085735"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/figursydd-t-shirt-med-halsband-p05644125.html",
-    "name": "FIGURSYDD T-SHIRT MED HALSBAND",
-    "description": "Figursydd T-shirt med rund krage och korta ärmar. Detalj med halsband med strass.",
-    "price": "199",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/5644/125/251/2/w/1920/5644125251_1_1_1.jpg?ts=1652868827417",
-    "sku": "185857612-251-2",
-    "color": "BENVIT",
-    "brand": "ZARA",
-    "size": [],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/5644/125/251/2/w/1920/5644125251_2_1_1.jpg?ts=1652868827376",
-      "https://static.zara.net/photos///2022/V/0/1/p/5644/125/251/2/w/1920/5644125251_2_2_1.jpg?ts=1652871117400",
-      "https://static.zara.net/photos///2022/V/0/1/p/5644/125/251/2/w/1920/5644125251_6_1_1.jpg?ts=1652690058023",
-      "https://static.zara.net/photos///2022/V/0/1/p/5644/125/251/2/w/1920/5644125251_6_2_1.jpg?ts=1652690061039",
-      "https://static.zara.net/photos///2022/V/0/1/p/5644/125/251/2/w/1920/5644125251_6_3_1.jpg?ts=1652690086193",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1001_0.jpg?ts=1626188266479"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/sarongbyxa-med-knytning-p02335007.html",
-    "name": "SARONGBYXA MED KNYTNING",
-    "description": "Byxa. Hög midja. Resårlinning. Överlappande detalj i samma tyg i sarongstil som är justerbar med knytning. Vida ben.",
+    "productLink": "https://www.zara.com/se/sv/byxa-i-bomull-med-knytningar-p02335007.html",
+    "name": "BYXA I BOMULL MED KNYTNINGAR",
+    "description": "Byxa. Hög midja. Resårlinning. Justerbart skärp i samma tyg med knytningar. Vida ben.",
     "price": "259",
     "image": "https://static.zara.net/photos///2022/V/0/1/p/1198/997/500/2/w/1920/1198997500_1_1_1.jpg?ts=1653045625933",
     "sku": "186703038-500-2",
     "brand": "ZARA",
     "size": [
       "S",
-      "M"
+      "L"
     ],
     "extraImage": [
       "https://static.zara.net/photos///2022/V/0/1/p/1198/997/500/2/w/1920/1198997500_2_1_1.jpg?ts=1653045625672",
@@ -245,559 +1188,6 @@
       "https://static.zara.net/photos///2022/V/0/1/p/2335/007/500/2/w/1920/2335007500_6_2_1.jpg?ts=1652885124920",
       "https://static.zara.net/photos///2022/V/0/1/p/1198/997/500/2/w/1920/1198997500_6_3_1.jpg?ts=1652690080130",
       "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1275_0.jpg?ts=1626188350512"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/klanning-med-rutigt-monster-p04688314.html",
-    "name": "KLÄNNING MED RUTIGT MÖNSTER",
-    "description": "Midiklänning. Fyrkantig urringning. Korta puffärmar. Nederkant med paneler. Resårdetalj i ryggen med sprund och knytning.",
-    "price": "499",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/12/w/1920/4688314050_1_1_1.jpg?ts=1652871353302",
-    "sku": "186627417-050-1",
-    "color": "ENDA",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/12/w/1920/4688314050_2_1_1.jpg?ts=1652871333026",
-      "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/12/w/1920/4688314050_2_2_1.jpg?ts=1652871305178",
-      "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/2/w/1920/4688314050_6_1_1.jpg?ts=1646990882307",
-      "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/2/w/1920/4688314050_6_2_1.jpg?ts=1646990876226",
-      "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/2/w/1920/4688314050_6_3_1.jpg?ts=1646990884498",
-      "https://static.zara.net/photos///2022/V/0/1/p/4688/314/050/2/w/1920/4688314050_6_4_1.jpg?ts=1646990875108"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-klanning-p00881328.html",
-    "name": "GINGHAMRUTIG KLÄNNING",
-    "description": "Kort klänning. V-ringning. Tunna och justerbara axelband. Dolda sidfickor i sömmen. Detalj med blommor av dekorpärlor. Kombinerat foder i kontrast. Knäppning i ryggen med dragkedja dold i sömmen.",
-    "price": "399",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_1_1_1.jpg?ts=1652945110997",
-    "sku": "177667014-059-1",
-    "color": "VIT/TURKOS",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_2_1_1.jpg?ts=1652861106058",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_2_2_1.jpg?ts=1652861124238",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_2_3_1.jpg?ts=1652861111204",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_6_1_1.jpg?ts=1652687324557",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_6_2_1.jpg?ts=1652687317573",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/328/059/2/w/1920/0881328059_6_3_1.jpg?ts=1652687296661"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-strukturtopp-p00881022.html",
-    "name": "GINGHAMRUTIG STRUKTURTOPP",
-    "description": "Topp med V-ringning. Korta puffärmar. Resår i ärmsluten. Knäppning i ryggen med knytningar.",
-    "price": "299",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_1_1_1.jpg?ts=1652861106548",
-    "sku": "177662124-059-1",
-    "color": "VIT/TURKOS",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_2_1_1.jpg?ts=1652861107788",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_2_2_1.jpg?ts=1652947147089",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_2_3_1.jpg?ts=1652861107818",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_6_1_1.jpg?ts=1652687297606",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_6_2_1.jpg?ts=1652687310951",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_6_3_1.jpg?ts=1652687334231",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/022/059/2/w/1920/0881022059_6_4_1.jpg?ts=1652687311589"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-topp-cropped-p00881007.html",
-    "name": "GINGHAMRUTIG TOPP CROPPED",
-    "description": "Topp med djup V-ringning med knut. Korta puffärmar. Resår och volang i ärmsluten. Detalj med blommor av dekorpärlor.",
-    "price": "359",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_1_1_1.jpg?ts=1652861109310",
-    "sku": "177662201-046-1",
-    "color": "ROSA/VIT",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_2_1_1.jpg?ts=1652861107480",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_2_2_1.jpg?ts=1652861107217",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_2_3_1.jpg?ts=1652861107346",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_6_1_1.jpg?ts=1652687330792",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_6_2_1.jpg?ts=1652687297762",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_6_3_1.jpg?ts=1652687322305",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/007/046/2/w/1920/0881007046_6_4_1.jpg?ts=1652687317488"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-klanning-p00881327.html",
-    "name": "GINGHAMRUTIG KLÄNNING",
-    "description": "Midiklänning. V-ringning. Tunna och justerbara axelband. Snörning i ryggen i samma tyg. Detalj med blommor av dekorpärlor. Kombinerat foder i kontrast.",
-    "price": "499",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_1_1_1.jpg?ts=1652945110713",
-    "sku": "177667013-047-1",
-    "color": "MÖNSTER",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_2_1_1.jpg?ts=1652861107634",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_2_2_1.jpg?ts=1652861124527",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_2_3_1.jpg?ts=1652861109801",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_2_4_1.jpg?ts=1652861113089",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_2_5_1.jpg?ts=1652861110887",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_6_1_1.jpg?ts=1652687324098",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_6_2_1.jpg?ts=1652687324789",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_6_3_1.jpg?ts=1652687325296",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/327/047/2/w/1920/0881327047_6_4_1.jpg?ts=1652687298300"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-topp-cropped-p00881008.html",
-    "name": "GINGHAMRUTIG TOPP CROPPED",
-    "description": "Topp med V-ringning. Korta puffärmar. Resår i ärmsluten. Detalj med blommor av dekorpärlor. Resårband i ryggen.",
-    "price": "359",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_1_1_1.jpg?ts=1652861107043",
-    "sku": "186749110-047-1",
-    "color": "MÖNSTER",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_2_1_1.jpg?ts=1652861123724",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_2_2_1.jpg?ts=1652861107608",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_2_3_1.jpg?ts=1652861108013",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_6_1_1.jpg?ts=1652687308487",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_6_2_1.jpg?ts=1652687295421",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_6_3_1.jpg?ts=1652687326323",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/008/047/2/w/1920/0881008047_6_4_1.jpg?ts=1652687299773"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/quiltad-vast-med-broderier-p07200700.html",
-    "name": "QUILTAD VÄST MED BRODERIER",
-    "description": "Vadderad väst med V-ringning. Ärmlös. Detalj med broderade blommor.",
-    "price": "499",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_1_1_1.jpg?ts=1652870844683",
-    "sku": "177666695-712-10",
-    "color": "NATURFÄRG",
-    "brand": "ZARA",
-    "size": [
-      "XS-S",
-      "M-L"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_2_1_1.jpg?ts=1652870844617",
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_2_2_1.jpg?ts=1652870844890",
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_2_4_1.jpg?ts=1652870844775",
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_2_5_1.jpg?ts=1652870844460",
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_6_1_1.jpg?ts=1652687296720",
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_6_2_1.jpg?ts=1652687315509",
-      "https://static.zara.net/photos///2022/I/0/1/p/7200/700/712/2/w/1920/7200700712_6_3_1.jpg?ts=1652687315336"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/byxa-mini-flare-med-struktur-p03093684.html",
-    "name": "BYXA MINI FLARE MED STRUKTUR",
-    "description": "Byxa. Hög midja. Falska bakfickor med kantband. Utsvängda benslut. Knäppning fram med dragkedja, knapp och metallhake.",
-    "price": "359",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/12/w/1920/3093684402_1_1_1.jpg?ts=1652871342136",
-    "sku": "186626943-402-1",
-    "color": "TURKOS",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/12/w/1920/3093684402_2_1_1.jpg?ts=1652871339371",
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/12/w/1920/3093684402_2_2_1.jpg?ts=1652871355053",
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/12/w/1920/3093684402_2_3_1.jpg?ts=1652871334810",
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/12/w/1920/3093684402_2_4_1.jpg?ts=1652871360839",
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/2/w/1920/3093684402_6_1_1.jpg?ts=1647593583348",
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/2/w/1920/3093684402_6_2_1.jpg?ts=1647593592379",
-      "https://static.zara.net/photos///2022/V/0/1/p/3093/684/402/2/w/1920/3093684402_6_3_1.jpg?ts=1647593590207",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1294_0.jpg?ts=1626188344605"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-korsett-topp-p03489684.html",
-    "name": "GINGHAMRUTIG KORSETT-TOPP",
-    "description": "Topp. V-ringning. Tunna, justerbara axelband. Knäppning fram med metallhake.",
-    "price": "259",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/12/w/1920/3489684402_1_1_1.jpg?ts=1652861536482",
-    "sku": "185857556-402-1",
-    "color": "TURKOS",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/12/w/1920/3489684402_2_1_1.jpg?ts=1652885183904",
-      "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/12/w/1920/3489684402_2_2_1.jpg?ts=1652861536462",
-      "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/12/w/1920/3489684402_2_3_1.jpg?ts=1652861536618",
-      "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/2/w/1920/3489684402_6_1_1.jpg?ts=1649839364985",
-      "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/2/w/1920/3489684402_6_2_1.jpg?ts=1649839364673",
-      "https://static.zara.net/photos///2022/V/0/1/p/3489/684/402/2/w/1920/3489684402_6_3_1.jpg?ts=1649839367611",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1294_0.jpg?ts=1626188344605"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/bucket-rutig-med-dekorparlor-p00881005.html",
-    "name": "BUCKET RUTIG MED DEKORPÄRLOR",
-    "description": "Bucket med flerfärgade dekorpärlor.",
-    "price": "179",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/005/300/2/w/1920/0881005300_6_1_1.jpg?ts=1652690638628",
-    "sku": "184287658-300-2",
-    "brand": "ZARA",
-    "size": [
-      "S",
-      "M"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/005/300/2/w/1920/0881005300_6_2_1.jpg?ts=1652690638710"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutiga-shorts-med-struktur-p04661500.html",
-    "name": "GINGHAMRUTIGA SHORTS MED STRUKTUR",
-    "description": "Shorts med hög midja. Framfickor. Falska bakfickor med kantband. Fransad nederkant. Knäppning fram med dragkedja och tryckknapp.",
-    "price": "359",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_1_1_1.jpg?ts=1652871736045",
-    "sku": "178982103-120-1",
-    "color": "GRÖNA FÄRGER",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_2_1_1.jpg?ts=1652871737175",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_2_2_1.jpg?ts=1652871736626",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_2_3_1.jpg?ts=1652871736978",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_2_4_1.jpg?ts=1652871737354",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_2_5_1.jpg?ts=1652871737384",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_6_1_1.jpg?ts=1652687297912",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_6_2_1.jpg?ts=1652687298876",
-      "https://static.zara.net/photos///2022/I/0/1/p/4661/500/120/2/w/1920/4661500120_6_3_1.jpg?ts=1652687316218"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/ginghamrutig-jacka-cropped-p02010818.html",
-    "name": "GINGHAMRUTIG JACKA CROPPED",
-    "description": "Jacka. Krage med slag. Långärmad. Muddar i ärmsluten. Falska fickor med lock på bröstet. Fransad nederkant. Knäppning fram med tryckknappar.",
-    "price": "499",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_1_1_1.jpg?ts=1652884585381",
-    "sku": "177661939-120-1",
-    "color": "GRÖNA FÄRGER",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_2_1_1.jpg?ts=1652861111131",
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_2_2_1.jpg?ts=1652861124488",
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_2_3_1.jpg?ts=1652861111160",
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_2_4_1.jpg?ts=1652861107554",
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_6_1_1.jpg?ts=1652687296699",
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_6_2_1.jpg?ts=1652687324784",
-      "https://static.zara.net/photos///2022/I/0/1/p/2010/818/120/2/w/1920/2010818120_6_3_1.jpg?ts=1652687313673"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/medellang-klanning-med-brodyr-p07521111.html",
-    "name": "MEDELLÅNG KLÄNNING MED BRODYR",
-    "description": "Medellång klänning. Rak urringning. Tunna axelband. Kombinerade broderier i kontrast.",
-    "price": "699",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_1_1_1.jpg?ts=1652871336524",
-    "sku": "144410290-658-1",
-    "color": "TERRAKOTTA",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_2_1_1.jpg?ts=1652871358491",
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_2_2_1.jpg?ts=1652871298333",
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_2_3_1.jpg?ts=1652871304148",
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_6_1_1.jpg?ts=1648122204176",
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_6_2_1.jpg?ts=1648122206233",
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_6_3_1.jpg?ts=1648125274152",
-      "https://static.zara.net/photos///2022/V/0/1/p/7521/111/658/2/w/1920/7521111658_6_4_1.jpg?ts=1648122206720"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/klanning-i-bomull-med-paneler-p07521303.html",
-    "name": "KLÄNNING I BOMULL MED PANELER",
-    "description": "Medellång klänning. Rak urringning. Justerbara axelband med knytning. Smockresår på ryggen. Nederkant med paneler.",
-    "price": "399",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_1_1_1.jpg?ts=1652870846395",
-    "sku": "180146904-406-1",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_2_1_1.jpg?ts=1652870846444",
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_2_2_1.jpg?ts=1652870846729",
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_2_3_1.jpg?ts=1652870845614",
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_2_4_1.jpg?ts=1652870844366",
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_6_1_1.jpg?ts=1652687318710",
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_6_2_1.jpg?ts=1652687327521",
-      "https://static.zara.net/photos///2022/I/0/1/p/7521/303/406/2/w/1920/7521303406_6_3_1.jpg?ts=1652687317758"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/klanning-med-broderier-p00881323.html",
-    "name": "KLÄNNING MED BRODERIER",
-    "description": "Medellång klänning. Rak urringning. Axelband. Smockresår på ryggen. Kombinerade broderier i kontrast. Foder. Nederkant med paneler.",
-    "price": "559",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_1_1_1.jpg?ts=1652861106545",
-    "sku": "177667020-250-1",
-    "color": "VIT",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_2_1_1.jpg?ts=1652861107591",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_2_2_1.jpg?ts=1652861125931",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_2_3_1.jpg?ts=1652861122337",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_2_4_1.jpg?ts=1652861124898",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_6_1_1.jpg?ts=1652687296385",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_6_2_1.jpg?ts=1652687309853",
-      "https://static.zara.net/photos///2022/I/0/1/p/0881/323/250/2/w/1920/0881323250_6_3_1.jpg?ts=1652687313047",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1441_0.jpg?ts=1631607831731"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/hangselbyxa-med-dekorsom-p03175001.html",
-    "name": "HÄNGSELBYXA MED DEKORSÖM",
-    "description": "Hängselbyxa med rak krage och justerbara hängslen. Påsydd bröstficka, ficka i midjan och bakficka. Kontrasterande sömmar.",
-    "price": "559",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_1_1_1.jpg?ts=1652861106946",
-    "sku": "186627424-251-1",
-    "color": "BENVIT",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_2_1_1.jpg?ts=1652861110878",
-      "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_2_2_1.jpg?ts=1652861108482",
-      "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_2_3_1.jpg?ts=1652861107624",
-      "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_6_1_1.jpg?ts=1652689884328",
-      "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_6_2_1.jpg?ts=1652689887643",
-      "https://static.zara.net/photos///2022/I/0/1/p/3175/001/251/2/w/1920/3175001251_6_3_1.jpg?ts=1652689832788",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1455_0.jpg?ts=1631607092705"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/maxipasvaska-med-fransar-p16245910.html",
-    "name": "MAXIPÅSVÄSKA MED FRANSAR",
-    "description": "Påsväska maxi. Flätad. Detalj med fransar. Axelremmar.\n\nHöjd x Bredd: 33,5 x 35 cm",
-    "price": "559",
-    "image": "https://static.zara.net/photos///2022/V/1/1/p/6245/910/008/2/w/1920/6245910008_6_1_1.jpg?ts=1652865835292",
-    "sku": "144414119-008-3",
-    "brand": "ZARA",
-    "size": [],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/008/2/w/1920/6245910008_6_2_1.jpg?ts=1652863861142",
-      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/008/2/w/1920/6245910008_6_3_1.jpg?ts=1652863864320",
-      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/008/2/w/1920/6245910008_6_4_1.jpg?ts=1652863862677",
-      "https://static.zara.net/photos///2022/V/1/1/p/6245/910/008/2/w/1920/6245910008_6_5_1.jpg?ts=1652863863329"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/linneskjorta-p04786078.html",
-    "name": "LINNESKJORTA",
-    "description": "Skjorta i 100 % linne. Långärmad. Asymmetrisk nederkant med sidosprund. Knäppning på framsidan med knappar.",
-    "price": "399",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_1_1_1.jpg?ts=1652883026902",
-    "sku": "186626984-806-1",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_2_1_1.jpg?ts=1652883027950",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_2_2_1.jpg?ts=1652883024335",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_2_4_1.jpg?ts=1652883024382",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_2_5_1.jpg?ts=1652883023676",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_2_6_1.jpg?ts=1652883025345",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/13/w/1920/4786078806_2_7_1.jpg?ts=1652883026267",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/2/w/1920/4786078806_6_1_1.jpg?ts=1647426270583",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/2/w/1920/4786078806_6_2_1.jpg?ts=1647426268833",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/2/w/1920/4786078806_6_3_1.jpg?ts=1645696303368",
-      "https://static.zara.net/photos///2022/V/0/1/p/4786/078/806/2/w/1920/4786078806_6_4_1.jpg?ts=1645696204554",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1210_0.jpg?ts=1626188364921"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/culottebyxa-p02242878.html",
-    "name": "CULOTTEBYXA",
-    "description": "Culottebyxa. Hög midja. Markerade sömmar. Vida ben. Knäppning i sidan med dold dragkedja i sömmen.",
-    "price": "399",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/13/w/1920/2242878800_1_1_1.jpg?ts=1652883033058",
-    "sku": "186627470-800-1",
-    "brand": "ZARA",
-    "size": [],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/13/w/1920/2242878800_2_1_1.jpg?ts=1652883036616",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/13/w/1920/2242878800_2_2_1.jpg?ts=1652883035988",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/13/w/1920/2242878800_2_3_1.jpg?ts=1652883032541",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/13/w/1920/2242878800_2_4_1.jpg?ts=1652883031815",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/13/w/1920/2242878800_2_5_1.jpg?ts=1652883036567",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/2/w/1920/2242878800_6_1_1.jpg?ts=1638519640416",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/2/w/1920/2242878800_6_2_1.jpg?ts=1638519640041",
-      "https://static.zara.net/photos///2022/V/0/1/p/2242/878/800/2/w/1920/2242878800_6_3_1.jpg?ts=1638519637468",
-      "https://static.zara.net/photos///contents/cm/sustainability/extrainfo/w/1920/sustainability-extrainfo-label-1209_0.jpg?ts=1626188364826"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/glattad-skjorta-p04437048.html",
-    "name": "GLÄTTAD SKJORTA",
-    "description": "Glättad skjorta. Krage med slag. Långärmad. Manschetter i ärmsluten. Asymmetrisk nederkant. Knäppning fram med knappar.",
-    "price": "399",
-    "image": "https://static.zara.net/photos///2022/V/0/1/p/2143/072/712/13/w/1920/2143072712_1_1_1.jpg?ts=1652434644670",
-    "sku": "185515564-712-1",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/V/0/1/p/2143/072/712/13/w/1920/2143072712_2_1_1.jpg?ts=1652434643802",
-      "https://static.zara.net/photos///2022/V/0/1/p/2143/072/712/13/w/1920/2143072712_2_2_1.jpg?ts=1652434646122",
-      "https://static.zara.net/photos///2022/V/0/1/p/2143/072/712/13/w/1920/2143072712_2_3_1.jpg?ts=1652434644187",
-      "https://static.zara.net/photos///2022/V/0/1/p/4437/043/712/2/w/1920/4437043712_6_1_1.jpg?ts=1644333460028",
-      "https://static.zara.net/photos///2022/V/0/1/p/4437/043/712/2/w/1920/4437043712_6_2_1.jpg?ts=1644333460586",
-      "https://static.zara.net/photos///2022/V/0/1/p/4437/043/712/2/w/1920/4437043712_6_3_1.jpg?ts=1644333466003",
-      "https://static.zara.net/photos///2022/V/0/1/p/4437/043/712/2/w/1920/4437043712_6_4_1.jpg?ts=1644333464546"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/byxa-med-broderier-med-paljetter-p02731076.html",
-    "name": "BYXA MED BRODERIER MED PALJETTER",
-    "description": "Glansig byxa. Hög midja. Resårlinning med dragsko. Sidfickor. Påsydd bakficka. Kontrasterande blombroderier med paljetter.",
-    "price": "859",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/2731/076/622/2/w/1920/2731076622_1_1_1.jpg?ts=1652882153175",
-    "sku": "177677783-622-1",
-    "color": "LJUSROSA",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/076/622/2/w/1920/2731076622_2_1_1.jpg?ts=1652882153031",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/076/622/2/w/1920/2731076622_2_2_1.jpg?ts=1652882151408",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/076/622/2/w/1920/2731076622_6_1_1.jpg?ts=1652689540010",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/076/622/2/w/1920/2731076622_6_2_1.jpg?ts=1652689538880",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/076/622/2/w/1920/2731076622_6_3_1.jpg?ts=1652689541331"
-    ]
-  },
-  {
-    "productLink": "https://www.zara.com/se/sv/skjorta-med-broderier-med-paljetter-p02731074.html",
-    "name": "SKJORTA MED BRODERIER MED PALJETTER",
-    "description": "Skjorta i satin. Krage med slag. Långärmad. Manschetter i ärmsluten. Kontrasterande blombroderier med paljetter. Asymmetrisk nederkant med sidosprund. Knäppning på framsidan med knappar.",
-    "price": "859",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_1_1_1.jpg?ts=1652882150871",
-    "sku": "177677485-622-1",
-    "color": "LJUSROSA",
-    "brand": "ZARA",
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "XL"
-    ],
-    "extraImage": [
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_2_1_1.jpg?ts=1652882150864",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_2_2_1.jpg?ts=1652882153469",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_2_3_1.jpg?ts=1652882153165",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_6_1_1.jpg?ts=1652699811398",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_6_2_1.jpg?ts=1652699813757",
-      "https://static.zara.net/photos///2022/I/0/1/p/2731/074/622/2/w/1920/2731074622_6_3_1.jpg?ts=1652699814173"
     ]
   }
 ]

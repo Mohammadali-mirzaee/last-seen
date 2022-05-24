@@ -1,12 +1,6 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-
-const { writeFile } = require('fs');
-
-/* const fileName = './adidas.json';
-const file = require(fileName);
- */
 const startLink = `https://www.adidas.se/senaste`
 
 
@@ -83,7 +77,7 @@ const getProductLinks = async (browser, pageLinks) => {
                     return loop()
                 }
                 await page.close()
-                return resultProductLinks.slice(0, 100)
+                return resultProductLinks.slice(0, 50)
             }
             catch (error) {
                 console.log(error)
@@ -107,8 +101,9 @@ const getProducts = async (browser, productHrefLinks) => {
             const href = productHrefLinks[b]
 
             try {
-                await page.goto(href, { watUntil: 'networkidle2' })
-
+                await page.goto(href, { waitUntil: 'load', timeout: 70000 })
+                await page.waitForSelector('[data-auto-id="size-selector"] button')
+                await page.waitForSelector('[data-auto-id="image-grid"] [data-auto-id="pdp__image-viewer__desktop-zoom__content"] >img')
             } catch (error) {
                 console.log(error)
             }
@@ -128,7 +123,7 @@ const getProducts = async (browser, productHrefLinks) => {
                     const sku = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).sku
                     const color = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).color
                     const brand = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).brand.name
-                    const extraImageElement = Array.from(document.querySelectorAll('.image-viewer__view-list-container___WEl65 .content___1wmQY img '))
+                    const extraImageElement = Array.from(document.querySelectorAll('[data-auto-id="image-grid"] [data-auto-id="pdp__image-viewer__desktop-zoom__content"] >img'))
                     const category = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).category.trim()
                     if (!extraImageElement) {
                         extraImageElement = []
@@ -150,7 +145,7 @@ const getProducts = async (browser, productHrefLinks) => {
                         brand: brand,
                         category: category,
                         extraImage: [...new Set(extraImage)],
-                        size
+                        size: [...new Set(size)]
                     }
                 }, { link: productHrefLinks[b] })
             } catch (error) {
@@ -192,24 +187,10 @@ const scraper = async () => {
         const productHrefLinks = await getProductLinks(browser, pageLinks)
         const products = await getProducts(browser, productHrefLinks)
         await browser.close()
-
-        const path = '../../../public/data/adidas.json';
-        const adidas = products
-
-
-
-        writeFile(path, JSON.stringify(adidas, null, 2), (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('Data written successfully to disk');
-        });
-
         console.log(products)
         return products
     }
     return await run()
 }
-scraper()
+//scraper()
 module.exports = scraper

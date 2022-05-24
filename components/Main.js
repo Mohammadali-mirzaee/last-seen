@@ -75,7 +75,7 @@ const Main = () => {
                             {/* Adidas */}
 
                             <span><Image
-                                src='/adidas-4-logo-svgrepo-com 1.svg'
+                                src='/logo/adidas.svg'
                                 height={100}
                                 width={100}
                                 layout='responsive'
@@ -90,7 +90,7 @@ const Main = () => {
                         <Link href='/dedicatedPages/hm'>
 
                             <span><Image
-                                src='/h&m_- logo-100x67 1.svg'
+                                src='/logo/hm.svg'
                                 height={100}
                                 width={100}
                                 layout='responsive'
@@ -102,7 +102,19 @@ const Main = () => {
                     <h2>
                         <Link href='/dedicatedPages/zara'>
                             <span><Image
-                                src='/zara-vector-logo-2022.svg'
+                                src='/logo/zara.svg'
+                                height={100}
+                                width={100}
+                                layout='responsive'
+                                alt="My Awesome Image"
+                            ></Image></span>
+                        </Link>
+
+                    </h2>
+                    <h2>
+                        <Link href='/dedicatedPages/puma'>
+                            <span><Image
+                                src='/logo/puma.svg'
                                 height={100}
                                 width={100}
                                 layout='responsive'

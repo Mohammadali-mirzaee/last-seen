@@ -9,7 +9,8 @@ module.exports = {
       "assets.adidas.com",
       "lp2.hm.com",
       "static.zara.net",
-      "lp.arket.com"
+      "lp.arket.com",
+      "images.puma.com"
     ],
 
   },

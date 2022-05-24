@@ -1,48 +1,22 @@
-import styles from '../styles/product.module.scss'
+import styles from '../../styles/product.module.scss'
 import Image from 'next/image';
 import { useState, useEffect } from "react";
-import Header from '../components/Header'
-import ProductOverlay from '../components/ProductOverlay';
+import Header from '../../components/Header';
+import ProductOverlay from '../../components/ProductOverlay';
 import React, { useCallback } from "react";
+/* import { fetchProducts } from '../services/Products';
+ */
 
-
-
-function shuffle(array) {
-    let currentIndex = array.length, randomIndex;
-    // While there remain elements to shuffle.
-    while (currentIndex != 0) {
-        // Pick a remaining element.
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-        // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]];
-    }
-
-    return array;
-}
 
 const getlogo = (store) => {
 
     switch (store) {
-        case 'H&M':
-            return {
-                src: '/logo/hm.svg'
-            }
-        case 'adidas':
-            return {
-                src: '/logo/adidas.svg'
 
-            }
-        case 'ZARA':
-            return {
-                src: '/logo/zara.svg'
-            }
         case 'PUMA':
             return {
                 src: '/logo/puma.svg'
-            }
 
+            }
     }
 
 }
@@ -68,14 +42,14 @@ const filterProducts = (products, search) => {
     })
 }
 
+const Puma = () => {
 
 
+    console.log()
 
-const Product = () => {
 
-    const [selectedProduct, setSelectedProduct] = useState(null)
     const [data, setData] = useState(null)
-    const [LengthOfproduct, setProductLength] = useState(null)
+    const [selectedProduct, setSelectedProduct] = useState(null)
 
     const [serach, setSearch] = useState('')
 
@@ -96,15 +70,12 @@ const Product = () => {
             let response
             try {
                 response = await fetch("/api/producsItems")
-
             } catch (error) {
-                console.log(error, ' error')
+                console.log(err, ' error')
                 throw new Error(error.message)
             }
-            const { adidas, hm, zara, puma } = await response.json()
-            const productLength = [...adidas, ...hm, ...zara, ...puma].length
-            setProductLength(productLength)
-            setData(shuffle([...adidas, ...hm, ...zara, ...puma]))
+            const { puma } = await response.json()
+            setData([...puma])
 
         }
         myFunc()
@@ -116,11 +87,6 @@ const Product = () => {
     }
 
     const productsToShow = filterProducts(data, serach)
-
-
-    /* if (data === null) {
-        return null
-    } */
     return (
         <div id={styles.ProductPage}>
 
@@ -136,9 +102,7 @@ const Product = () => {
                 </div>
             )}
 
-
             <div className={styles.filterItems}>
-                <h1>{LengthOfproduct} Products</h1>
                 <input type="text" onChange={onChange}
                     onKeyPress={event => {
                         if (event.key === 'Enter') {
@@ -203,4 +167,4 @@ const Product = () => {
     );
 };
 
-export default Product;
+export default Puma;

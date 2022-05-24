@@ -1,4 +1,6 @@
 const fs = require("fs")
+const { writeFile } = require('fs');
+
 
 const run = async () => {
     const scrapers = fs.readdirSync("scrapers")
@@ -11,6 +13,18 @@ const run = async () => {
         const products = await scraper()
         console.log("Done")
         console.log({ products })
+
+
+        const path = `../../public/data/${scrapers[i].replace('.js', '').trim()}.json`
+        const allProducts = products
+
+        writeFile(path, JSON.stringify(allProducts, null, 2), (error) => {
+            if (error) {
+                console.log('An error has occurred ', error);
+                return;
+            }
+            console.log('Data written successfully to disk');
+        });
     }
 }
 run();

@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-
-const { writeFile } = require('fs');
+/* 
+const { writeFile } = require('fs'); */
 /* const { resolve } = require('path');
  */
 const startLink = `https://www2.hm.com/sv_se/herr/nyheter/klader.html`
@@ -51,7 +51,7 @@ const getPages = async (browser) => {
         await page.close()
         console.log(`Amount of Pages : ${pageLinks.length}`)
 
-        return pageLinks.slice(0.2)
+        return pageLinks
 
     } catch (error) {
         throw new Error(error)
@@ -79,7 +79,7 @@ const getProductLinks = async (browser, pageLinks) => new Promise((resolve, reje
                     return loop()
                 }
                 await page.close()
-                return resolve(resultProductLinks.slice(0, 10))
+                return resolve(resultProductLinks.slice(0, 50))
             } catch (error) {
                 console.log(error)
             }
@@ -190,16 +190,16 @@ const scraper = async () => new Promise((resolve, reject) => {
         await browser.close()
 
 
-        const path = '../../../public/data/hm.json'
-        const hm = products
-
-        writeFile(path, JSON.stringify(hm, null, 2), (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('Data written successfully to disk');
-        });
+        /*  const path = '../../../public/data/hm.json'
+         const hm = products
+ 
+         writeFile(path, JSON.stringify(hm, null, 2), (error) => {
+             if (error) {
+                 console.log('An error has occurred ', error);
+                 return;
+             }
+             console.log('Data written successfully to disk');
+         }); */
 
         console.log(products)
         return resolve(products)
@@ -209,6 +209,6 @@ const scraper = async () => new Promise((resolve, reject) => {
 
 
 
-scraper()
+//scraper()
 
 module.exports = scraper
