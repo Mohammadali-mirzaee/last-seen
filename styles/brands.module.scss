@@ -12,7 +12,6 @@
         height: 100%;
         width: 100;
         display: flex;
-        padding: 3rem;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -20,39 +19,31 @@
 
         >div{
             height: 15rem;
-            width:30rem;
+            width:20rem;
             margin: 1rem;
             border: 1px solid #ccc;
             background-size: cover;
-           /*  background: red; */
             border-radius: 0.3rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-           // animation: shape 5s linear infinite;
-            background: linear-gradient(45deg,#4a8b4491,#b4ef9d);
-           // animation: changeColor 2s liner infinite alternate;
+            flex-direction: column;   
+            background: linear-gradient(45deg,#62db5791,#b4ef9d);
+            button{
+                height: 2rem;
+                width: 8rem;
+                border: none;
+                border-radius: 0.2rem;
+                margin-top: 1rem;
+                background: #2e7f3f;
+                color: aliceblue;
+            }
+        
         }
-        div:hover{
-            background: #f2f2f2;
+        button:hover{
+            background: #53de6f;
             transition: .3s ease-in-out;
         }
-     /*    @keyframes shape {
-            
-            0%, 100%{border-radius: 
-                40% 60% 70% 30%/ 40% 40% 60% 50%;
-            }
-             33%{border-radius: 
-                70% 30% 50% 50% / 30% 30% 70% 70%;
-            }
-             66%{border-radius: 
-                100% 60% 60% 100% / 100% 100% 60% 60%;
-            }
-         
-        }
-        @keyframes chanheColor {
-            to{filter:hue-rotate(90deg)}
-        } */
+   
     }
 }

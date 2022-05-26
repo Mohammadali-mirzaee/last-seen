@@ -11,6 +11,7 @@
         font-size: 4rem;
         z-index: 999;
         color: #2d6b39;
+        display: none;
 
 
     }
@@ -20,7 +21,8 @@
         right: 15rem;
         font-size: 4rem;
         z-index: 999;
-        color: #2d6b39
+        color: #2d6b39;
+        display: none;
     }
 
     .left{
@@ -28,9 +30,6 @@
         width: 300px;
         top: 15rem;
         height: 450px;
-        
-        img{
-        }
     }
 
     .right{
@@ -41,8 +40,7 @@
         left: 100;
         right: 0;
         border-radius: 1rem;
-        >img{
-        }
+        
     }
     .center{
         display: flex;
@@ -57,9 +55,6 @@
             height: 850px;
             border-radius: 1rem;
 
-        
-/*             border: 1px solid;
- */
             img{
                 border-radius: 0.5rem;
                          position: relative;
@@ -74,16 +69,16 @@
         align-items: center;
 
         h1{
-            padding-top: 2rem;
-            font-size: 2rem;
-             color: #2d6b39
+            padding-top: 1rem;
+            font-size: 3rem;
+             color: #162207
 
         }
         >div{
             display: flex;
             align-items: center;
             justify-content: center;
-            h2{
+            >div{
                 display: flex;
                 flex-direction: column;
                 width: 10rem;

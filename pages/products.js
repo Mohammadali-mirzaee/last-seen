@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Header from '../components/Header'
 import ProductOverlay from '../components/ProductOverlay';
 import React, { useCallback } from "react";
-
+import Animation from '../components/Animation';
 
 
 function shuffle(array) {
@@ -197,7 +197,7 @@ const Product = () => {
 
                 }
 
-                {data !== null && !(productsToShow?.length > 0) && <h1> Inga produkter</h1>}
+                {data !== null && !(productsToShow?.length > 0) && <Animation />}
             </div>
         </div>
     );

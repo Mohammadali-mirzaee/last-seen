@@ -1,16 +1,22 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-/* 
-const { writeFile } = require('fs'); */
-/* const { resolve } = require('path');
- */
-const startLink = `https://www2.hm.com/sv_se/herr/nyheter/klader.html`
 
+const urls = [
+    {
+        url: 'https://www2.hm.com/sv_se/',
+        query: 'herr/nyheter/klader.html?sort=stock&image-size=small&image=model&offset=0&'
+    },
+    {
+        url: 'https://www2.hm.com/sv_se/',
+        query: 'dam/nyheter/klader.html?sort=stock&image-size=small&image=model&offset=0&'
+    }
+
+]
 
 const options = {
     defaultViewport: null,
-    headless: true,
+    headless: false,
     ignoreHTTPSErrors: true,
     args: [
         '--proxy-server= http://proxylist.geonode.com/api/proxy-list?limit=50&page=1&sort_by=lastChecked&sort_type=desc&speed=fast&anonymityLevel=elite',
@@ -35,27 +41,30 @@ const options = {
 
 const getPages = async (browser) => {
     console.log('Get all Pages av H&M')
+    const pageLinks = []
+    for (let i = 0; i < urls.length; i++) {
+        try {
+            const url = urls[i]
+            const page = await browser.newPage()
+            await page.goto(`${url.url}${url.query}`, { waitUntil: 'networkidle2', timeout: 70000 })
+            /*    await page.waitForSelector('.load-more-heading') */
 
-    try {
-        const pageLinks = []
-        const page = await browser.newPage()
-        await page.goto(startLink, { waitUntil: 'networkidle2', timeout: 70000 })
+            const totalAmountOfProducts = await page.evaluate(() =>
+                document.querySelector('.load-more-heading')?.innerText.split('av')[1].replace('Artiklar', '').trim()
+            )
+            const pageCount = Math.ceil(totalAmountOfProducts / 36)
+            for (let i = 0; i < pageCount; i++) {
+                pageLinks.push(`${url.url}${url.query}page-size=${i * 36}`)
+            }
+            await page.close()
+            console.log(`Amount of Pages : ${pageLinks.length}`)
 
-        const totalAmountOfProducts = await page.evaluate(() =>
-            document.querySelector('.load-more-heading').innerText.split('av')[1].replace('Artiklar', '').trim()
-        )
-        const pageCount = Math.ceil(totalAmountOfProducts / 36)
-        for (let i = 0; i < pageCount; i++) {
-            pageLinks.push(`https://www2.hm.com/sv_se/herr/nyheter/klader.html?sort=stock&image-size=small&image=model&offset=0&page-size=${i * 36}`)
+
+        } catch (error) {
+            throw new Error(error)
         }
-        await page.close()
-        console.log(`Amount of Pages : ${pageLinks.length}`)
-
-        return pageLinks
-
-    } catch (error) {
-        throw new Error(error)
     }
+    return pageLinks
 }
 
 const getProductLinks = async (browser, pageLinks) => new Promise((resolve, reject) => {
@@ -79,7 +88,7 @@ const getProductLinks = async (browser, pageLinks) => new Promise((resolve, reje
                     return loop()
                 }
                 await page.close()
-                return resolve(resultProductLinks.slice(0, 50))
+                return resolve(resultProductLinks.slice(0, 100))
             } catch (error) {
                 console.log(error)
             }
@@ -188,19 +197,6 @@ const scraper = async () => new Promise((resolve, reject) => {
         const productHrefLinks = await getProductLinks(browser, pageLinks)
         const products = await getProducts(browser, productHrefLinks)
         await browser.close()
-
-
-        /*  const path = '../../../public/data/hm.json'
-         const hm = products
- 
-         writeFile(path, JSON.stringify(hm, null, 2), (error) => {
-             if (error) {
-                 console.log('An error has occurred ', error);
-                 return;
-             }
-             console.log('Data written successfully to disk');
-         }); */
-
         console.log(products)
         return resolve(products)
     }
@@ -209,6 +205,6 @@ const scraper = async () => new Promise((resolve, reject) => {
 
 
 
-//scraper()
+scraper()
 
 module.exports = scraper

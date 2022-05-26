@@ -2,6 +2,8 @@ import styles from '../styles/components/ProductOverlay.module.scss'
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Navigation } from 'swiper';
+import Link from 'next/link';
+
 
 SwiperCore.use([Pagination, Navigation]);
 
@@ -38,13 +40,14 @@ const ProductOverlay = ({ product }) => {
                     {imageExist && imageExist.map((image) => {
 
                         return (
-                            <SwiperSlide>
+                            <SwiperSlide key={image}>
                                 <div className={styles.swipeImg}>
                                     <Image
                                         src={image}
                                         height={450}
                                         width={450}
                                         objectFit="contain"
+                                        alt='my pic'
 
                                     />
                                 </div>
@@ -66,11 +69,11 @@ const ProductOverlay = ({ product }) => {
                     <span>{product.color}</span>
                 </div>
                 <div className={styles.sizes}>
-                    <strong>Size:</strong>
+                    <strong>Avalible sizes:</strong>
                     <div>
                         {sizeExist && sizeExist.map((x) => {
                             return (
-                                <span>{x}</span>
+                                <span key={x}>{x}</span>
                             )
                         })}
                     </div>
@@ -80,10 +83,6 @@ const ProductOverlay = ({ product }) => {
                     <h1>{product.price} SEK</h1>
                     <button><a href={product.productLink}>Go to store</a></button>
                 </div>
-                {/*    <div className={styles.merInfo}>
-                    <div>1</div>
-                    <div>2</div>
-                </div> */}
 
             </div>
         </div>

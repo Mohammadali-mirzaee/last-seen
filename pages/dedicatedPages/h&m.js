@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 import Header from '../../components/Header';
 import ProductOverlay from '../../components/ProductOverlay';
 import React, { useCallback } from "react";
-/* import { fetchProducts } from '../services/Products';
- */
+import Animation from '../../components/Animation';
 
 
 const getlogo = (store) => {
@@ -161,7 +160,7 @@ const Hm = () => {
 
                 }
 
-                {data !== null && !(productsToShow?.length > 0) && <h1> Inga produkter</h1>}
+                {data !== null && !(productsToShow?.length > 0) && <Animation />}
             </div>
         </div>
     );

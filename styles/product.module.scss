@@ -7,7 +7,7 @@
     .filterItems{
     padding-top: 5rem;
     padding-bottom: 1rem;
-    background: linear-gradient(0deg, #2755048c, transparent);
+    background:linear-gradient(0deg, #00b61b87, transparent);
     color: #FAFAFA;
     display: flex;
     align-items: center;
@@ -22,7 +22,10 @@
     color: black;
     margin-right: 3rem;
     font-weight: 600;
+
     }
+    
+    
         >input{
             height: 3rem;
             min-width: 6rem;
@@ -35,6 +38,23 @@
         input:focus{
             outline: none;
         }
+
+    @media (max-width: 600px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1{
+        text-align: center;
+        margin: 0;
+        padding-top: 1rem;
+    }
+    input{
+        margin-top: 1rem;
+        width: 70%;
+    }
+    }
     }
 
 .productOverlay{
@@ -73,7 +93,7 @@
                 height: 30rem;
                 width: 20rem;
 /*                 border: 1px solid #e2e2e2;
- */                position: relative;
+ */             position: relative;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
@@ -127,6 +147,66 @@
             transform: scale(1.5);
             }
             } */
+
+
+              
+        }
+        @media (max-width: 600px) {
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            
+            article{
+                >div{
+                    height: 15rem;
+                    width: 12rem;
+                    //border: 1px solid #cccc;
+                    margin: 0;
+                    border-radius: 0;
+                    border-bottom:1px solid #cccc ;
+                    padding: 0;
+                    .logo{
+                    padding-top: 0.2rem;
+                }
+                .logo{
+                    padding-top: 0.2rem;
+                    width: 25px;
+                    height: 25px;
+                }
+                .imageBox{
+                    background: #EFEFEF;
+                    height: 10rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 8rem;
+                    border-radius: 0.5rem;
+                    img{
+                        border-radius: 0.2rem;
+                    }
+                }
+                p{
+                    font-size: 0.8rem;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    font-weight: 600;
+                }
+                .price{
+                    font-size: 1.5rem;
+                    padding-top: 1rem;
+                }
+                }
+                button{
+                    display: none;
+                }
+            }
+
         }
     }
+
 }

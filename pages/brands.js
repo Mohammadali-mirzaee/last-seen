@@ -3,12 +3,30 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Link from 'next/link';
+
 import React, { useEffect, useState } from "react";
 
+
+function shuffle(array) {
+    let currentIndex = array.length, randomIndex;
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+
+    return array;
+}
+
 const allBrands = [
-    'Adidas',
+    'adidas',
     'H&M',
-    'Zara',
+    'ZARA',
     'Nike',
     'Jack&Jons',
     'Zalando',
@@ -22,6 +40,7 @@ const allBrands = [
     'PUMA'
 
 ]
+shuffle(allBrands)
 
 const getlogo = (store) => {
     /*    console.log("store", store) */
@@ -31,11 +50,11 @@ const getlogo = (store) => {
             return {
                 src: '/logo/hm-1.svg'
             }
-        case 'Adidas':
+        case 'adidas':
             return {
                 src: '/logo/adidas.svg'
             }
-        case 'Zara':
+        case 'ZARA':
             return {
                 src: '/logo/zara.svg'
             }
@@ -97,6 +116,10 @@ const getlogo = (store) => {
 
 }
 
+
+
+
+
 const Brands = () => {
 
     useEffect(() => {
@@ -107,45 +130,66 @@ const Brands = () => {
         AOS.refresh();
     }, []);
 
-    /* 
-        const [LengthOfproduct, setProductLength] = useState(null)
-        useEffect(() => {
-            const myFunc = async () => {
-                let response
-                try {
-                    response = await fetch("/api/producsItems")
-    
-                } catch (error) {
-                    console.log(error, ' error')
-                    throw new Error(error.message)
-                }
-                const { adidas, hm, zara, puma } = await response.json()
-                const allLength = [adidas, hm, zara, puma]
-                setProductLength(allLength)
-    
-    
-            }
-            myFunc()
-        }, []) */
 
+    const [data, setData] = useState(null)
+
+
+    useEffect(() => {
+        const myFunc = async () => {
+            let response
+            try {
+                response = await fetch("/api/producsItems")
+
+            } catch (error) {
+                console.log(error, ' error')
+                throw new Error(error.message)
+            }
+            const { adidas, hm, zara, puma } = await response.json()
+            setData([...adidas, ...hm, ...zara, ...puma])
+
+        }
+        myFunc()
+    }, [])
+
+    const product = data
+    const brandcount = {}
+
+    allBrands?.forEach(brand => {
+        product?.forEach(prod => {
+            if (prod.brand === brand) {
+                brandcount[brand] = brandcount[brand] ? brandcount[brand] + 1 : 1
+            }
+        })
+    })
+
+    console.log("brandcount", brandcount)
+
+    const brandsArray = Object.entries(brandcount).map(([brand, count]) => ({ brand, count }))
+
+    console.log(brandsArray)
     return (
         <div id={styles.brands}>
             <Header />
             <h1>All Brands</h1>
-            {/*     <span>{LengthOfproduct[0].length}</span> */}
             <div>
 
                 {allBrands && allBrands.map((x) => {
                     return (
-                        <div data-aos={'fade-down'} className={styles.brandCard}>
-                            {/*  <p>{x}</p> */}
+                        <div key={x.src} className={styles.brandCard}>
                             {getlogo(x)?.src && <Image
+                                data-aos={'zoom-in'}
                                 height={100}
                                 width={100}
                                 objectFit="contain"
                                 alt="My Awesome Image"
                                 src={getlogo(x).src}
                             />}
+                            {brandcount[x] ? <span> {brandcount[x]} Products</span> : 'Coming soon'}
+                            {/*  {console.log("X", x)} */}
+
+                            {brandcount[x] ? <Link href={`/dedicatedPages/${x.toLowerCase()}`}><a><button>Go to Butik</button></a></Link> : ''}
+
+
                         </div>
                     )
                 })}

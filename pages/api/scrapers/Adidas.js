@@ -77,7 +77,7 @@ const getProductLinks = async (browser, pageLinks) => {
                     return loop()
                 }
                 await page.close()
-                return resultProductLinks.slice(0, 50)
+                return resultProductLinks.slice(0, 100)
             }
             catch (error) {
                 console.log(error)

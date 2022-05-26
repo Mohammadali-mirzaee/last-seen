@@ -1,13 +1,8 @@
 import styles from '../styles/components/Main.module.scss'
 import Image from 'next/image';
-import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 
 const Main = () => {
-
-    // Fetch Function   
-
-
 
     return (
         <div id={styles.Main}>
@@ -23,7 +18,6 @@ const Main = () => {
 
                 <Image
                     src='/sergey-vinogradov-cp-yyhib74w-unsplash.jpg'
-
                     height={450}
                     width={300}
                     objectFit="cover"
@@ -69,60 +63,76 @@ const Main = () => {
             <div id={styles.mainBrands}>
                 <h1>SEE THE LATEST PRODUCTS</h1>
                 <div>
-                    <h2>
+                    <div>
                         <Link href='/dedicatedPages/adidas'>
+                            <a>
+                                <span>
+                                    <Image
+                                        src='/logo/adidas.svg'
+                                        height={100}
+                                        width={100}
+                                        objectFit="contain"
+                                        alt="My Awesome Image"
+                                    ></Image>
+                                </span>
+                            </a>
 
-                            {/* Adidas */}
-
-                            <span><Image
-                                src='/logo/adidas.svg'
-                                height={100}
-                                width={100}
-                                layout='responsive'
-                                alt="My Awesome Image"
-                            ></Image></span>
                         </Link>
 
 
 
-                    </h2>
-                    <h2>
-                        <Link href='/dedicatedPages/hm'>
+                    </div>
+                    <div>
+                        <Link href='/dedicatedPages/h&m'>
+                            <a>
+                                <span>
+                                    <Image
+                                        src='/logo/hm.svg'
+                                        height={100}
+                                        width={100}
+                                        objectFit="contain"
+                                        alt="My Awesome Image"
+                                    ></Image>
+                                </span>
+                            </a>
 
-                            <span><Image
-                                src='/logo/hm.svg'
-                                height={100}
-                                width={100}
-                                layout='responsive'
-                                alt="My Awesome Image"
-                            ></Image></span>
                         </Link>
 
-                    </h2>
-                    <h2>
+                    </div>
+                    <div>
                         <Link href='/dedicatedPages/zara'>
-                            <span><Image
-                                src='/logo/zara.svg'
-                                height={100}
-                                width={100}
-                                layout='responsive'
-                                alt="My Awesome Image"
-                            ></Image></span>
+                            <a>
+                                <span>
+                                    <Image
+                                        src='/logo/zara.svg'
+                                        height={100}
+                                        width={100}
+                                        objectFit="contain"
+                                        alt="My Awesome Image"
+                                    ></Image>
+                                </span>
+                            </a>
+
                         </Link>
 
-                    </h2>
-                    <h2>
+                    </div>
+                    <div>
                         <Link href='/dedicatedPages/puma'>
-                            <span><Image
-                                src='/logo/puma.svg'
-                                height={100}
-                                width={100}
-                                layout='responsive'
-                                alt="My Awesome Image"
-                            ></Image></span>
+                            <a>
+                                <span>
+                                    <Image
+                                        src='/logo/puma.svg'
+                                        height={100}
+                                        width={100}
+                                        objectFit="contain"
+                                        alt="My Awesome Image"
+                                    ></Image>
+                                </span>
+                            </a>
+
                         </Link>
 
-                    </h2>
+                    </div>
                 </div>
             </div>
 

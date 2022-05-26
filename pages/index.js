@@ -12,10 +12,6 @@ export default function Home() {
       <Header />
       <Main />
       <Footer />
-
-      <footer className={styles.footer}>
-
-      </footer>
     </div>
   )
 }

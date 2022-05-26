@@ -1,43 +1,70 @@
 
 #Footer{
     height: 15rem;
-    padding: 1rem;
-    width: 100%;
     background: #000;
     color: aliceblue;
-    .logoVy{
-        position: absolute;
-        left: 1rem;
-        padding-top: 1rem;
-    }
-    .container{
-    width: 100%;
-    align-items: center;
     display: flex;
-    justify-content: center;
-    color: aliceblue;
-    ul{
-        display: flex;
-        padding-top: 2rem;
-        justify-content: space-around;
-        align-items: center;
-        li{
-            list-style-type: none;
-            a{
-                text-decoration: none;
-                color: #999;
-                padding: 1rem;
-                transition: .3s ease-in-out;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
 
+   > a{
+        position: relative;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        top: 0rem;
+        left: rem;
+
+        span{
+            
+            &:nth-child(1){animation: fadeIn 0.3s ease-in-out 0s both; font-size: 4rem; position: absolute; left: -2rem; top: -0.75rem;}
+            &:nth-child(2){animation: fadeIn 0.3s ease-in-out 0.3s both; font-size: 4rem; position: absolute;  left: -0.5rem; bottom: -3.2rem;}
+            &:nth-child(3){animation: fadeIn 0.3s ease-in-out 0.6s both; font-size: 1.5rem; position: relative; left: 2rem; top: 1.5rem;}
+        }
+
+        @keyframes fadeIn {
+            0%{
+                opacity: 0;
             }
-            a:hover{
-                color: #fff;
+            100%{
+                opacity: 1;
             }
         }
     }
+
+    .links{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
     }
+    ul{
+       
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        padding: 0;
+        margin: 0;
+        
+        li{
+            list-style-type: none;
+            a{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-decoration: none;
+                color: #999;
+                margin: 1rem;
+                transition: .3s ease-in-out;
+                padding: 0.5rem;
+                
+            }
+        }
+    }
+
     .social{
-        padding-top: 5rem;
+        padding-top: 0rem;
         color: #999;
     }
 
