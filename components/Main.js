@@ -1,6 +1,14 @@
 import styles from '../styles/components/Main.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Pagination, Navigation } from 'swiper';
+
+
+SwiperCore.use([Pagination, Navigation]);
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const Main = () => {
 
@@ -15,7 +23,7 @@ const Main = () => {
             <div className={styles.left}>
 
                 <Image
-                    src='/sergey-vinogradov-cp-yyhib74w-unsplash.jpg'
+                    src='/images/leftPic.jpg'
                     height={450}
                     width={300}
                     objectFit="cover"
@@ -28,7 +36,7 @@ const Main = () => {
 
             <div className={styles.right}>
                 <Image
-                    src='/images/manon-drogue-hZ-j3N8xYpE-unsplash (1).jpg'
+                    src='/images/rightPic.jpg'
                     height={450}
                     width={300}
                     objectFit="cover"
@@ -39,19 +47,43 @@ const Main = () => {
 
             </div>
 
+
             <div className={styles.center}>
 
                 <div className={styles.centerImg}>
 
-                    <Image
-                        src='/images/mojtaba-mosayebzadeh-QvJsfkVxbjU-unsplash.jpg'
+                    <Swiper
+                        pagination={{
+                            dynamicBullets: true,
+                        }}
+                        className={styles.swiper}
+                    >
+                        <SwiperSlide>
+                            <Image
 
-                        height={850}
-                        width={550}
-                        objectFit="contain"
-                        alt="My Awesome Image"
+                                //src='/images/mojtaba-mosayebzadeh-QvJsfkVxbjU-unsplash.jpg'
+                                src='/images/center.jpg'
+                                height={900}
+                                width={599}
+                                //objectFit="contain"
+                                layout="responsive"
+                                alt="My Awesome Image"
 
-                    ></Image>
+                            ></Image>
+                        </SwiperSlide>
+
+                        <SwiperSlide className={styles.nextImg}>
+                            <Image
+                                //src='/sergey-vinogradov-cp-yyhib74w-unsplash.jpg'
+                                src='/images/rightPic.jpg'
+                                height={850}
+                                width={550}
+                                objectFit="contain"
+                                alt="My Awesome Image"
+
+                            ></Image>
+                        </SwiperSlide>
+                    </Swiper>
 
                 </div>
 

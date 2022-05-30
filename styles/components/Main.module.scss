@@ -55,6 +55,10 @@
             height: 850px;
             border-radius: 1rem;
 
+            .nextImg{
+                display: none;
+            }
+
             img{
                 border-radius: 0.5rem;
                 position: relative;
@@ -95,6 +99,10 @@
                 span{
                     width: 100%;
                     padding: 1rem;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
                 }
             }
         }
@@ -122,13 +130,21 @@
        
         .centerImg{
             width: 100%;
-            height: auto;
+            //height: auto;
+            height: 600px;
+
+            .nextImg{
+                display: block;
+            }
         }
         
     }
     #mainBrands{
          h1{
-            text-align: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 2rem;
         }
         >div{
         display: flex;
@@ -137,7 +153,12 @@
         flex-wrap: wrap;
 
         >div{
-            width: 4rem;
+            width: 5rem;
+            margin: 2rem;
+            span{
+                padding: 0;
+                margin: 0;
+            }
         }
         }
         

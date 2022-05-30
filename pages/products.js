@@ -5,6 +5,14 @@ import Header from '../components/Header'
 import ProductOverlay from '../components/ProductOverlay';
 import React, { useCallback } from "react";
 import Animation from '../components/Animation';
+import Head from 'next/head';
+import { v4 as uuidv4 } from 'uuid';
+import useSWR from 'swr';
+
+const fetcher = (url) => fetch(url).then((res) => res.json());
+
+
+
 
 
 function shuffle(array) {
@@ -49,7 +57,7 @@ const getlogo = (store) => {
 
 const filterProducts = (products, search) => {
 
-    if (!products) {
+    if (!Array.isArray(products)) {
         return []
     }
 
@@ -78,9 +86,12 @@ const filterProducts = (products, search) => {
 
 
 const Product = () => {
+    const { data: api, error, isValidating } = useSWR("/api/producsItems", fetcher)
+    console.log("api", api)
 
     const [selectedProduct, setSelectedProduct] = useState(null)
-    const [data, setData] = useState(null)
+    const [data, setData] = useState([])
+    console.log("data", data)
     const [LengthOfproduct, setProductLength] = useState(null)
 
     const [serach, setSearch] = useState('')
@@ -98,23 +109,37 @@ const Product = () => {
     }, [])
 
     useEffect(() => {
-        const myFunc = async () => {
-            let response
-            try {
-                response = await fetch("/api/producsItems")
 
-            } catch (error) {
-                console.log(error, ' error')
-                throw new Error(error.message)
-            }
-            const { adidas, hm, zara, puma } = await response.json()
+        /*  const myFunc = async () => {
+             let response
+             try {
+                 response = await fetch("/api/producsItems")
+ 
+             } catch (error) {
+                 console.log(error, ' error')
+                 throw new Error(error.message)
+             }
+             const { adidas, hm, zara, puma } = await response.json()
+             const productLength = [...adidas, ...hm, ...zara, ...puma].length
+             setProductLength(productLength)
+             setData(shuffle([...adidas, ...hm, ...zara, ...puma]))
+ 
+         }
+         myFunc() */
+        console.log("1")
+        const { adidas, hm, zara, puma } = api || {}
+
+        if (adidas && hm && zara && puma) {
+            console.log("1.3")
             const productLength = [...adidas, ...hm, ...zara, ...puma].length
+            console.log("1.6")
             setProductLength(productLength)
+            console.log("2")
             setData(shuffle([...adidas, ...hm, ...zara, ...puma]))
-
+            console.log("3")
         }
-        myFunc()
-    }, [])
+
+    }, [api])
 
     const onChange = (event) => {
 
@@ -129,6 +154,10 @@ const Product = () => {
     } */
     return (
         <div id={styles.ProductPage}>
+            <Head>
+                <title>product</title>
+                <meta name="description" content="lastSeen All Brands in One Place" />
+            </Head>
 
             <Header />
             {selectedProduct && (
@@ -164,7 +193,7 @@ const Product = () => {
                             }
 
                             return (
-                                <article key={data.id}>
+                                <article key={uuidv4()}>
                                     <div >
                                         <div className={styles.logo}>
                                             {src && <Image
