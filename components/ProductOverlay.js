@@ -1,4 +1,4 @@
-import styles from '../styles/components/ProductOverlay.module.scss'
+import styles from '../styles/components/ProductOverlay.module.scss';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Navigation } from 'swiper';

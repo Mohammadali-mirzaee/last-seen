@@ -1,4 +1,4 @@
-import styles from '../styles/components/Main.module.scss'
+import styles from '../styles/components/Main.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,8 +7,6 @@ const Main = () => {
     return (
         <div id={styles.Main}>
 
-            {/*             <h1>{data.name}</h1>
- */}
             <h1 className={styles.leftText}>LAST SEEN</h1>
             <h1 className={styles.rightText}>BE UPDATED</h1>
 
@@ -50,8 +48,7 @@ const Main = () => {
 
                         height={850}
                         width={550}
-                        objectFit="cover"
-                        layout='responsive'
+                        objectFit="contain"
                         alt="My Awesome Image"
 
                     ></Image>

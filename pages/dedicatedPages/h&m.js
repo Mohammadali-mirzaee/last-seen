@@ -116,6 +116,10 @@ const Hm = () => {
                     productsToShow && productsToShow.map(
                         function (data) {
 
+                            const src = getlogo(data?.brand)?.src
+                            if (!src) {
+                                return
+                            }
                             return (
                                 <article key={data.id}>
                                     <div >
@@ -123,7 +127,7 @@ const Hm = () => {
                                             <Image
                                                 width={50}
                                                 height={50}
-                                                src={getlogo(data?.brand)?.src}
+                                                src={src}
                                                 alt="My Awesome Image"
                                             />
                                         </div>

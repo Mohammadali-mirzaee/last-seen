@@ -3,12 +3,13 @@ var fs = require('fs');
 
 
 const productData = (req, res) => {
-  /*  res.status(200).json({ name: 'John Doe' }) */
+  /// reading all Json Files from public mapp
   try {
     const adidasDataString = fs.readFileSync('public/data/Adidas.json', "utf8")
     const hmDataString = fs.readFileSync('public/data/H&M.json', "utf8")
     const zaraDataString = fs.readFileSync('public/data/Zara.json', "utf8")
     const pumaDataString = fs.readFileSync('public/data/Puma.json', "utf-8")
+    //parse to String data
     const adidasData = JSON.parse(adidasDataString)
     const hmData = JSON.parse(hmDataString)
     const zaraData = JSON.parse(zaraDataString)

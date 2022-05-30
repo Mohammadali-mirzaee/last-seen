@@ -1,4 +1,4 @@
-import styles from '../styles/about.module.scss'
+import styles from '../styles/about.module.scss';
 import Header from '../components/Header'
 import Image from 'next/image';
 import AOS from 'aos';

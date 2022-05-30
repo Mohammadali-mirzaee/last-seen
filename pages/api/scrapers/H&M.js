@@ -16,7 +16,7 @@ const urls = [
 
 const options = {
     defaultViewport: null,
-    headless: false,
+    headless: true,
     ignoreHTTPSErrors: true,
     args: [
         '--proxy-server= http://proxylist.geonode.com/api/proxy-list?limit=50&page=1&sort_by=lastChecked&sort_type=desc&speed=fast&anonymityLevel=elite',
@@ -88,7 +88,7 @@ const getProductLinks = async (browser, pageLinks) => new Promise((resolve, reje
                     return loop()
                 }
                 await page.close()
-                return resolve(resultProductLinks.slice(0, 100))
+                return resolve(resultProductLinks.slice(0, 300))
             } catch (error) {
                 console.log(error)
             }
@@ -127,7 +127,7 @@ const getProducts = async (browser, productHrefLinks) => new Promise((resolve, r
                     const name = productInfo.name.trim()
                     const description = productInfo.description.trim()
                     const price = productInfo.offers[0].price
-                    const image = productInfo.image.replace('//lp2.hm.com/', 'https://lp2.hm.com/')?.replace('//lp.arket.com', 'https://lp.arket.com')?.trim()
+                    const image = productInfo.image.replace('//lp2.hm.com/', 'https://lp2.hm.com/')?.replace('//lp.arket.com', 'https://lp.arket.com')?.replace('//lp.weekday.com', 'https://lp.weekday.com')?.trim()
                     const sku = productInfo.sku.trim()
                     const color = productInfo.color
                     const brand = productInfo.brand.name
@@ -205,6 +205,6 @@ const scraper = async () => new Promise((resolve, reject) => {
 
 
 
-scraper()
+//scraper()
 
 module.exports = scraper

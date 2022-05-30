@@ -30,6 +30,7 @@ const options = {
     },
 };
 
+//Getig all pages from the site
 const getPages = async (browser) => {
     console.log('Get all pages')
 
@@ -39,7 +40,7 @@ const getPages = async (browser) => {
         await page.goto(startLink, { waitUntil: 'networkidle2' })
 
         const totalAmountOfProducts = await page.evaluate(() =>
-            document.querySelector('[data-auto-id="plp-header-bar-products-count"]').innerText.replace(/[^\w\s]/gi, '').trim()
+            document.querySelector('[data-auto-id="plp-header-bar-products-count"]').innerText.replace(/[^\w\s]/gi, '')?.trim()
         )
 
         const pageproductSize = await page.evaluate(() =>
@@ -77,7 +78,7 @@ const getProductLinks = async (browser, pageLinks) => {
                     return loop()
                 }
                 await page.close()
-                return resultProductLinks.slice(0, 100)
+                return resultProductLinks.slice(0, 300)
             }
             catch (error) {
                 console.log(error)
@@ -102,7 +103,7 @@ const getProducts = async (browser, productHrefLinks) => {
 
             try {
                 await page.goto(href, { waitUntil: 'load', timeout: 70000 })
-                await page.waitForSelector('[data-auto-id="size-selector"] button')
+                await page.waitForSelector('[data-auto-id="size-selector"]')
                 await page.waitForSelector('[data-auto-id="image-grid"] [data-auto-id="pdp__image-viewer__desktop-zoom__content"] >img')
             } catch (error) {
                 console.log(error)
@@ -113,23 +114,23 @@ const getProducts = async (browser, productHrefLinks) => {
                 product = await page.evaluate(({ link }) => {
                     const productLink = link
                     const nameElement = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML)
-                    const name = nameElement.name.trim()
+                    const name = nameElement.name?.trim()
 
                     const descriptionElement = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML)
-                    const description = descriptionElement.description.trim()
+                    const description = descriptionElement.description?.trim()
                     const price = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).offers.price
 
-                    const image = document.querySelector('meta[property="og:image"]').content.trim()
+                    const image = document.querySelector('meta[property="og:image"]').content?.trim()
                     const sku = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).sku
                     const color = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).color
                     const brand = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).brand.name
                     const extraImageElement = Array.from(document.querySelectorAll('[data-auto-id="image-grid"] [data-auto-id="pdp__image-viewer__desktop-zoom__content"] >img'))
-                    const category = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).category.trim()
+                    const category = JSON.parse(document.querySelector('[type="application/ld+json"]').innerHTML).category?.trim()
                     if (!extraImageElement) {
                         extraImageElement = []
                     }
                     const extraImage = extraImageElement.map(x => x?.src)
-                    const sizeElement = document.querySelectorAll('[data-auto-id="size-selector"] button')
+                    const sizeElement = document?.querySelectorAll('[data-auto-id="size-selector"] button')
                     if (!sizeElement) {
                         sizeElement = []
                     }

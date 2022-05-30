@@ -1,4 +1,4 @@
-import styles from '../styles/product.module.scss'
+import styles from '../styles/product.module.scss';
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import Header from '../components/Header'
@@ -61,6 +61,12 @@ const filterProducts = (products, search) => {
             return true
         }
         if (product.name?.toLowerCase().includes(search.toLowerCase())) {
+            return true
+        }
+        if (product.color?.toLowerCase().includes(search.toLowerCase())) {
+            return true
+        }
+        if (product.brand?.toLowerCase().includes(search.toLowerCase())) {
             return true
         }
 
@@ -152,17 +158,21 @@ const Product = () => {
                     // use data State Variable For Get Data Use JavaScript Map Mathod
                     productsToShow && productsToShow.map(
                         function (data) {
+                            const src = getlogo(data?.brand)?.src
+                            if (!src) {
+                                src = '/logo/S3.svg'
+                            }
 
                             return (
                                 <article key={data.id}>
                                     <div >
                                         <div className={styles.logo}>
-                                            <Image
+                                            {src && <Image
                                                 width={50}
                                                 height={50}
-                                                src={getlogo(data?.brand)?.src}
+                                                src={src}
                                                 alt="My Awesome Image"
-                                            />
+                                            />}
                                         </div>
 
                                         <div onClick={() => selectProduct(data.sku)} className={styles.imageBox}>

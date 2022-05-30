@@ -7,7 +7,8 @@
     .filterItems{
     padding-top: 5rem;
     padding-bottom: 1rem;
-    background:linear-gradient(0deg, #00b61b87, transparent);
+    //background:linear-gradient(0deg, #00b61b87, transparent);
+    background: #060D0D;
     color: #FAFAFA;
     display: flex;
     align-items: center;
@@ -19,7 +20,7 @@
     right: 0;
     margin: 0 auto;
     >h1{
-    color: black;
+    color: #FAFAFA;
     margin-right: 3rem;
     font-weight: 600;
 
@@ -71,8 +72,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   /*  background: black;
-    opacity: 0.2; */
     position: fixed;
     left: 0;
     right: 0;
@@ -92,8 +91,7 @@
             >div{
                 height: 30rem;
                 width: 20rem;
-/*                 border: 1px solid #e2e2e2;
- */             position: relative;
+               position: relative;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
@@ -122,7 +120,8 @@
                 }
 
                 button{
-                    background: #2d6b39;
+                    //background: #2d6b39;
+                    background: #060D0D;
                     border: none;
                     height: 2rem;
                     width:50%;
@@ -137,18 +136,13 @@
                 }
                   button:hover {
                     outline: none;
-                    background: #53de6f;
-                    box-shadow: 0 5px 15px #26a97d66;
-      }
+                    //background: #53de6f;
+                    background: #0e191f;
+                    box-shadow: 0 5px 15px #00000066;
+      
+                }
                 
             }
-            /* &:hover {
-            >div {
-            transform: scale(1.5);
-            }
-            } */
-
-
               
         }
         @media (max-width: 600px) {
@@ -164,10 +158,9 @@
                 >div{
                     height: 15rem;
                     width: 12rem;
-                    //border: 1px solid #cccc;
                     margin: 0;
                     border-radius: 0;
-                    border-bottom:1px solid #cccc ;
+                    border-bottom:1px solid #cccc;
                     padding: 0;
                     .logo{
                     padding-top: 0.2rem;

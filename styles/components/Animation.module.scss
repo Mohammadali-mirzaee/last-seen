@@ -9,7 +9,7 @@
         flex-direction: column;
         animation: shape 5s linear infinite;
         background: linear-gradient(45deg,#4a8b4491,#b4ef9d);
-        animation: changeColor 2s liner infinite alternate;
+        animation: changeColor 2s linear infinite alternate;
 
             ul{
                 display: flex;
@@ -29,16 +29,16 @@
          @keyframes shape {
             
             0%, 100%{border-radius: 
-                40% 60% 70% 30%/ 40% 40% 60% 50%;
-            }
+                40% 60% 70% 30% / 40% 40% 60% 50%;
+            };
              33%{border-radius: 
                 70% 30% 50% 50% / 30% 30% 70% 70%;
-            }
+            };
              66%{border-radius: 
                 100% 60% 60% 100% / 100% 100% 60% 60%;
-            }
+            };
          
         }
         @keyframes chanheColor {
-            to{filter:hue-rotate(90deg);}
+            to{filter:hue-rotate(90deg)};
         } 

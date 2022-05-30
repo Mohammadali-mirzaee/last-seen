@@ -81,7 +81,7 @@ const getProductLinks = async (browser) => {
             throw new Error(error)
         }
     }
-    return [...new Set(resultProductLinks)].slice(0, 100)
+    return [...new Set(resultProductLinks)].slice(0, 300)
 
 }
 

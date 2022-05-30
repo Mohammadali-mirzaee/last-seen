@@ -1,4 +1,4 @@
-import styles from '../styles/components/Footer.module.scss'
+import styles from '../styles/components/Footer.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className={styles.links}>
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Mohammadali-mirzaee/last-seen">
                             <Image
                                 height={30}
                                 width={30}
@@ -29,7 +29,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Mohammadali-mirzaee/last-seen">
                             <Image
                                 height={30}
                                 width={30}
@@ -41,7 +41,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/Mohammadali-mirzaee/last-seen">
                             <Image
                                 height={30}
                                 width={30}

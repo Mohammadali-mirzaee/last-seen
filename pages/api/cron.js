@@ -6,6 +6,7 @@ const run = async () => {
     const scrapers = fs.readdirSync("scrapers")
     for (let i = 0, len = scrapers.length; i < len; i++) {
         console.log("!start")
+        //Reading the all scrapers files
         const code = fs.readFileSync(`scrapers/${scrapers[i]}`, "utf8")
         //console.log("1", code)
         const scraper = await eval(code)
@@ -14,7 +15,7 @@ const run = async () => {
         console.log("Done")
         console.log({ products })
 
-
+        // Remove Js of the last name of files
         const path = `../../public/data/${scrapers[i].replace('.js', '').trim()}.json`
         const allProducts = products
 
