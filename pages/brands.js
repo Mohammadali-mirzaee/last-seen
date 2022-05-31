@@ -4,6 +4,8 @@ import Header from '../components/Header';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
+import Head from 'next/head';
+
 
 import React, { useEffect, useState } from "react";
 
@@ -163,16 +165,17 @@ const Brands = () => {
     })
 
     console.log("brandcount", brandcount)
-
     const brandsArray = Object.entries(brandcount).map(([brand, count]) => ({ brand, count }))
-
     console.log(brandsArray)
     return (
         <div id={styles.brands}>
+            <Head>
+                <title>brands</title>
+                <meta name="description" content="lastSeen All Brands in One Place" />
+            </Head>
             <Header />
             <h1>All Brands</h1>
             <div>
-
                 {allBrands && allBrands.map((x) => {
                     return (
                         <div key={x.src} className={styles.brandCard}>
@@ -185,8 +188,6 @@ const Brands = () => {
                                 src={getlogo(x).src}
                             />}
                             {brandcount[x] ? <span> {brandcount[x]} Products</span> : 'Coming soon'}
-                            {/*  {console.log("X", x)} */}
-
                             {brandcount[x] ? <Link href={`/dedicatedPages/${x.toLowerCase()}`}><a><button>Go to Butik</button></a></Link> : ''}
 
 

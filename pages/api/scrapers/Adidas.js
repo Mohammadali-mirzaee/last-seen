@@ -4,8 +4,6 @@ puppeteer.use(StealthPlugin());
 const startLink = `https://www.adidas.se/senaste`
 
 
-
-/*  */
 const options = {
     defaultViewport: null,
     headless: true,

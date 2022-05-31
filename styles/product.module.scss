@@ -3,6 +3,7 @@
     color: #000000;
     background:#EDEFF0;
     position: absolute;
+   
 
     .filterItems{
     padding-top: 5rem;
@@ -202,4 +203,35 @@
         }
     }
 
+    .Pagination{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        h2{
+            text-align: center;
+        }
+        button{
+            height: 2rem;
+            width: 10rem;
+            border-radius: 1rem;
+            border: none;
+            margin: 2rem;
+            background: #060D0D;
+            color: #FAFAFA;
+           
+        }
+         @media (max-width: 600px) {
+         padding: 0;
+         justify-content: space-around;
+         font-size: 0.7rem;
+
+         button{
+             width: 6rem;
+             border-radius: 1rem;
+         }
+        }
+    }
 }

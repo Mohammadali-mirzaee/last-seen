@@ -8,9 +8,7 @@ const run = async () => {
         console.log("!start")
         //Reading the all scrapers files
         const code = fs.readFileSync(`scrapers/${scrapers[i]}`, "utf8")
-        //console.log("1", code)
         const scraper = await eval(code)
-        //console.log("2", products)
         const products = await scraper()
         console.log("Done")
         console.log({ products })
@@ -29,3 +27,4 @@ const run = async () => {
     }
 }
 run();
+

@@ -7,13 +7,12 @@ import React, { useCallback } from "react";
 import Animation from '../components/Animation';
 import Head from 'next/head';
 import { v4 as uuidv4 } from 'uuid';
-import useSWR from 'swr';
+import Footer from '../components/Footer'
+
+/* import useSWR from 'swr';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
-
-
-
-
+ */
 
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -26,7 +25,6 @@ function shuffle(array) {
         [array[currentIndex], array[randomIndex]] = [
             array[randomIndex], array[currentIndex]];
     }
-
     return array;
 }
 
@@ -50,14 +48,12 @@ const getlogo = (store) => {
             return {
                 src: '/logo/puma.svg'
             }
-
     }
 
 }
 
 const filterProducts = (products, search) => {
-
-    if (!Array.isArray(products)) {
+    if (!products) {
         return []
     }
 
@@ -83,19 +79,14 @@ const filterProducts = (products, search) => {
 }
 
 
-
-
 const Product = () => {
-    const { data: api, error, isValidating } = useSWR("/api/producsItems", fetcher)
-    console.log("api", api)
-
+    //const { data, error } = useSWR("/api/producsItems", fetcher)
     const [selectedProduct, setSelectedProduct] = useState(null)
     const [data, setData] = useState([])
-    console.log("data", data)
     const [LengthOfproduct, setProductLength] = useState(null)
-
     const [serach, setSearch] = useState('')
-
+    const [wait, setWait] = useState(false)
+    const [page, setPage] = useState(1)
 
     const selectProduct = useCallback((sku) => {
         console.log("sku", sku)
@@ -109,51 +100,69 @@ const Product = () => {
     }, [])
 
     useEffect(() => {
+        const myFunc = async () => {
+            let response
+            try {
+                response = await fetch("/api/producsItems")
 
-        /*  const myFunc = async () => {
-             let response
-             try {
-                 response = await fetch("/api/producsItems")
- 
-             } catch (error) {
-                 console.log(error, ' error')
-                 throw new Error(error.message)
-             }
-             const { adidas, hm, zara, puma } = await response.json()
-             const productLength = [...adidas, ...hm, ...zara, ...puma].length
-             setProductLength(productLength)
-             setData(shuffle([...adidas, ...hm, ...zara, ...puma]))
- 
-         }
-         myFunc() */
-        console.log("1")
-        const { adidas, hm, zara, puma } = api || {}
-
-        if (adidas && hm && zara && puma) {
-            console.log("1.3")
+            } catch (error) {
+                console.log(error, ' error')
+                throw new Error(error.message)
+            }
+            const { adidas, hm, zara, puma } = await response.json()
             const productLength = [...adidas, ...hm, ...zara, ...puma].length
-            console.log("1.6")
             setProductLength(productLength)
-            console.log("2")
             setData(shuffle([...adidas, ...hm, ...zara, ...puma]))
-            console.log("3")
+            setWait(true)
         }
-
-    }, [api])
+        myFunc()
+    }, [])
 
     const onChange = (event) => {
-
         setSearch(event.target.value)
     }
 
-    const productsToShow = filterProducts(data, serach)
+    const from = page <= 0 ? 0 : (page - 1) * 50
+    const to = from + 50
+    const productsToShow = filterProducts(data?.slice(from, to), serach)
+
+    // const scrollToTop = () => {
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: 'smooth' // for smoothly scrolling
+    //     });
+    // };
 
 
-    /* if (data === null) {
-        return null
-    } */
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // for smoothly scrolling
+        });
+    }, [page])
+
+    const goFrom = () => {
+        setPage(page + 1)
+        // scrollToTop()
+
+    }
+    const goBack = () => {
+        setPage(page - 1)
+        // scrollToTop()
+    }
+
+    const productLeft = data.length
+    const getRemainingProducts = () => {
+        const remainingProducts = data.length - to
+        if (remainingProducts <= 0) {
+            return null
+        }
+        return remainingProducts
+    }
+
     return (
         <div id={styles.ProductPage}>
+
             <Head>
                 <title>product</title>
                 <meta name="description" content="lastSeen All Brands in One Place" />
@@ -170,7 +179,6 @@ const Product = () => {
                     </div>
                 </div>
             )}
-
 
             <div className={styles.filterItems}>
                 <h1>{LengthOfproduct} Products</h1>
@@ -194,7 +202,7 @@ const Product = () => {
 
                             return (
                                 <article key={uuidv4()}>
-                                    <div >
+                                    <div>
                                         <div className={styles.logo}>
                                             {src && <Image
                                                 width={50}
@@ -215,7 +223,6 @@ const Product = () => {
 
                                             />
                                         </div>
-
                                         <p>
                                             {data.name}
                                         </p>
@@ -227,17 +234,26 @@ const Product = () => {
                                             <a href={data.productLink}>Go to store</a>
                                         </button>
                                     </div>
-
                                 </article>
 
                             )
                         }
                     )
-
                 }
 
-                {data !== null && !(productsToShow?.length > 0) && <Animation />}
+                {data !== null && !(productsToShow?.length > 0) && wait && <Animation />}
+
             </div>
+            {data.length > 0 && (
+                <div className={styles.Pagination}>
+                    <button disabled={from <= 0} onClick={goBack}>Previous</button>
+                    <h2>Showing {getRemainingProducts()} of {productLeft} Products</h2>
+                    <button disabled={to >= data.length - 1} onClick={goFrom}>Next</button>
+                </div>
+            )}
+            {data.length > 0 && (
+                <Footer />
+            )}
         </div>
     );
 };

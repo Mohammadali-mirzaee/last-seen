@@ -8,8 +8,11 @@
         justify-content: center;
         flex-direction: column;
         animation: shape 5s linear infinite;
-        background: linear-gradient(45deg,#4a8b4491,#b4ef9d);
-        animation: changeColor 2s linear infinite alternate;
+        background: linear-gradient(45deg,#00000091,#000000);
+
+        h1{
+            color: #fff;
+        }
 
             ul{
                 display: flex;
@@ -17,10 +20,11 @@
                 padding: 0;
                 width: 100%;
                 li{
+                    
                     list-style-type: none;
                     a{
                         text-decoration: none;
-                        color: #000;
+                        color: #fff;
                         font-size: 1.6rem;
                     }
                 }
@@ -39,6 +43,4 @@
             };
          
         }
-        @keyframes chanheColor {
-            to{filter:hue-rotate(90deg)};
-        } 
+      
